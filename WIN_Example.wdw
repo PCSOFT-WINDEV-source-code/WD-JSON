@@ -1,0 +1,1262 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Example
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Example
+ identifier : 0x2c0f9dab05357030
+ internal_properties : CAAAAAgAAABactb4qmSOi3a1UgcWzM7eaJVD6KGyZuvkIRv/VYi9XtJbUj60jIrKCpqZ1Z2zQKbzNWklwk0+U7eFFSX1hsxppS3nUrfYt+aLeRnFOCTjJJHXecRqhutRuS0wrjTknTzJYzRYxUdgwk0yKrvmBqnn3LFpdjql/kWxm7OoOWcd8qqGNhgMJ1hU5DjgU5KwIbWQblGT147K/X/hTZDYrBLrCj17yb9hHNQfsqw87hDKfKldREb3bZ/g9qfKl4EFB90QjTXTTSCYfm/e3K1RH4y6HJxY4RUJefvMz+DcNoUGwPo46ouysT9MpEN+MQprshdSIwTlFHgCNCIMUKv84V1G+1DRLOWEI+HkxM3aaQ+qX4fuLcuZVHEyEyojH4uw0GL49/buVsVhIXhp3VJiKpHBV0g2BjXt2F3dUqPcZPAysB8BxGK0T11nKawGieF9+FyJFgZnxIq1rp5+C9qxJVFLjNG5Alf0u1kz2M+dAfGUljEw1gKaHQJWYLbV7lRoasU9QnIaIsMA53L1Y7zTtbbMo0kZTmhqggaeu0JBQQ+HIW97WZrkHmkIqHviqS8r+YmisHINqD48wJAjcGe80BpxCRba6lXLZ7oNGsWGzsMVjnL7SfgLcQrutS5R2Gb1cdERwUEo6BAP20I3JFwacApu4P4vARsIoaUn2vARQsD4W9CxYrjSr1EomvrzDJRIYTny0S1jKxyqCGCfkcxqCThYtK2O3irOYer9vz68GJGnBsNKBdS23d5uLrPYy7+dgJ1r7u/ahpcG0LZ9pv0=
+ properties :
+  width : 1000
+  height : 716
+  widthClient : 998
+  heightClient : 684
+ controls :
+  -
+    name : STC_InitialText
+    identifier : 0x2c0f9dab05367040
+    internal_properties : CAAAAAgAAACc4mRitx8HGYKv3obHU1AMkObgBFDpvxjasBpQ+yO/4CxsS6K899LvFhzWxd+5bXs4VmZHqN6FMZ+I/Thx+3vUHlRKjrJiMhTub12HPZANTl1pQgufq7LaYcexlAzSSzxFx+1X1VjBdzBLLTNboXgSXEj8pt/yoIfs9aln36myjhc7PEaPdaOfSqUq3kLGTdnAU0DCApJWDS8yPylIZe+7vZZNFWILv6bUs2aZvI3CWNPi1Na3sgmozPMEQKuFJpPMslzvomCt+PG3e+dmCP4NsHBw3j7KsUyRCBDtF/m8pOulnzXEDKFnF+7VY0I9v16KGmuWvBqCrolbyREr453zHYIvBPH69jnjhWsZ3J29o55uf+k7UO6yytfbJzAo9Dmqgr5QrEsUUeeRaVAEfPsByJWp8mhpheMhwAfWKz6pSDfBFDgPaH7CV3viEnuFXLW1shZDLlkEIAZMjy08AlE/nPGozefOVkzaC40GEw2ZlL6DHpD/rZ+VsCXycaCzEcw5/btUZ2Dcjl+A+dDnums+W8SWnFX234JzV6a2IbHWA29zCbGob1i5ZAAOGAfjAniWjF7pMP4N4bO0FQ0oVGSutzuSwO6uSr5JoOylZC2sCdhYlCdzwJBSa/xdcreB5ZjP3uBVGD82PYBybWWgU8JbdR738SlxdpVxxBDgvdDLT6lwjVioR6QZH+mlNbYiNreuNayWsfQ5xyBXrm7hkmwdVL8T/IjXKMCGXf8XbxHW+5OaL7Brw0lJx+i89mUXa2m2VaYtfeQxafWI74TtoaEOsUmc1kFzNtSy
+    properties :
+     x : 6
+     y : 6
+     width : 986
+     height : 74
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : TAB_Example
+    identifier : 0x2c0f9dab05377040
+    internal_properties : CAAAAAgAAAC2h/hrfy2ftQsK/xyLUERv86qhZgAndt0dsywGUzw0CFqmmp3/eeSsqX6kFHtoMr8GKtWhsrmAJWdbHyoJPuET4xYgjNzvY9IsGFkHKogQ5B2kV8K6Zam36Y43h7h4dC8fUXYNLNvY2KNgzIEDOHN5Wnba6Rh5KRqcQHujKR4/0JOeaiStT2qkD0bhnOO3I/IcKXdXJ4S6cXrPzLSAHFttEUPgggqx25vlG39zjIA21sFlQaU9kvynFuOtXf//aMglPmv+RNm0fC0mNTBaYK5fv4CsUzrklQOLNp3f/T1ODZzR0Hdbh/ogwWlB+kGs8P33eT5ihA37o8tkP7jApU7VIsXQr8DAPOEHdBThJf5aYz0U7C/4unCs4qgn3gGBs4qpzKoqWXhQ85dwmhJBUvfBlgeqz+RTGEw3+tiouhLl4Qgu2KFoPrXBl1dQPRfX9HUMbBzkaHVQ7dBcylyzbI4mj01HYEujcYqmNvNJXCYylb0n1y6JSZK5dStiB93L2ZFNAr6WDtBM2N+7PbrPQ930C1ACIYT69wIm67FddWvFFV9du1V8iuVdTwZuB0GJ0nJhh3HsVTWzCC+h33Mi/vtbZC5vgqetkRPRCCumwsJqBx1tOfjKTBRROGRQEEX2MqmeQahvHTNptlfVna5ddmA/3S5zXUgkWS9f1HvOpibEZZ7bkCWIpVfaKzisI15hwisLpwsb/CzBHS92O1Pa460ePSlMlOSR9UboNeYfBsH1M3VACGAJHJrRhnV21CyBKJwJ9QZ26fzO/T+cAH1nCMrx1KfXjfO6jpfPeYT3GwPaLO7x+xbfabo7Xh1iwV/9Q9qklrF+jDO0Nxn0L85NN/gidKfrwL+eNAH9ohydzTKnT7SU9+4p19i3LgDUjmiXoU3LJonnvMCel/yTkPKusPltLLSwZjNDcN0akjn8wdOimWC3xEdE4V47VemC00bhNV8n1XVjaD4SQzPOZqV0OjkMBpBpWadz8yqU1Uxb/qdpeu/kA/MvlJTQajEMY1hQxTnsw2X8DLh9lk3F2XTZgvCF2Svjaggc7H0P/OQkDMzBMmeNsrpbTlvKtIBIq22DBk86B1OI+/nuvQD/qaSnh0Pyg5HC7cMP3SQMIJ8sMiLvWXH5tUT+8Rcwylbq/FcIcfPALxAMhHXAnetmV5GSPT3iDVtMZIVOfqwWwLZq+dTB6w9Y1EMeR/yyxDJwqAjXBTN59IExHbggUYLo8n5vGV8sULpMr56xgatgr4yNAYCJDAhpywxW/6Oy
+    properties :
+     y : 86
+     width : 1000
+     height : 598
+    tabs :
+     -
+       internal_properties : CAAAAAgAAAD/5tiQg6QSDgr97Sc/UXiNioDqZr2/sff+F3GD+MEoS3hsD/FwpwVCbNnYx+CpWjA+ojFn6nbYCl+aBNZcRz1YEroxxaSuBftLXLWwlrnAWJqk0aqNP+5DYanO1OIMZ99Rk6TxeOgwv2U/WoswCHEDjoP7COG7JzLw/GeloSgRMTPlHDicx7SHZgEYRWDOiWOhhQsaSezt8xlEpcJPDlNPZf7TX2LZj2jX2lc/Z2Je7m8=
+       controls :
+        -
+          name : STC_Explanations_4
+          identifier : 0x2c0f9dab05417040
+          internal_properties : CAAAAAgAAAA0WgSs254M4ghpPLUlRLw8wOv8+zita3xk0Fz5FkLC9BVSQ07MaQO4RLpcr83s0PZDSObQ9fVAfVtrGIKIyVRgJhBxqqZQzF6prv6zp/MBeoxOq7AkUp6qAAuDULq/N9Qbt4wRcJ5Sgr9TvaHrAkviDZl6Od7JqdEa6YzE9cmq5razCfW8MCK2vMGg/v6qd1Jb7JJLwSsS5g/FObBM94AyoJs0YDgxIHMS+p5iHFViEM2fuxPIzI1zIiIvkKVRy2ikEG1Nrin5aMkWWr3xKlcWBIFDQUQ4bZ72cbxc1gl4HPK2TsdWnkR4ZSSMWOkg2OgJuYMK3RGZyCnF9hQdYycxyA/tL9sLmo0+Vo2Qp7mgfd2IDmB2i8nGVp4gu1aNWLjp6n4T/o115LlBgwELW1m0A6ITXChVt9lefYh4KwuHluBhbhIFbldRCN4GDSnn4KBQfTgQe+o6jOqEcLi/DOja8J7k8hz3q0JYLKO2ByhjJpTrr7wgYDX4KA2oKu4JNwZuq1ktVoLPyAi8qD4qN1NIGhfP6q0IKZeP/O/ONy6oNPTbNnQnSE2grtwcJ26QAAnt4xcVEuJjqlcBxuNtJDiOg90U9+JaPlnWFQH3quetcrsFbDJA8gtS6Fjbr9tWApoxjN5Ip2gLN2u2I1IwaxLKd/gFRMuJ5rOS85IJMDU6vXQksQIuB/IzlBYnTAiN9zA2eF4VkqV9c79xiOHUwW8iSCxRubSuCiINAYlwsLqCsxnsPOkrjSbQ7KYX4/e4OrI1MMIhcC+eZsStZ9wQDOAn9CTrgScb92tj/uco9E5asLH2E2PMzHWiBT8T953mXwafALOj4E3LIqKB/rwJXDwqGIloXdjgFkCRWSofWKnhoBrAqjJBBBiokhIbxnzXCC6mJkY7KQ7UjG0Z+bYffjRVZLJIj70sOE+CSDBHIkDdLNoYqZs19uIkdAF2o1MSjJI+Ky7H/1KXLJYDl1k3/Eb0DR8yYchEu4xiHaaLz4vMM+U+IEWJ+L30LV+RElsqlnIqJal3or7NkBUnIjKlfbit8nXm27wxfAksVlv76G72YXDBgz0tgecGl0/km1W0TKa997lv6FBzegatsfvxq13P8R17MO+q2jYpRhTw2F8ZXmm2wyDUdn2SnfAqek+bo70s4m8kerf3flyoU1b+7eMvq7gUNUWsaGmB47tVWgJ8r+iO5OLlQ65V6AL7kEAntJjI5FjJcZG2dn+NrGEMDnBCQYENgpNmYt2891HkL26bMqFo1FVpVoaytjo0
+          properties :
+           x : 6
+           y : 30
+           width : 799
+           height : 49
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BT_JSON_variable
+          identifier : 0x2c0f9dab05427040
+          internal_properties : CAAAAAgAAAA8uPKSlS3CG+qM7rGPI3nTHzgX/uNdrp747Zn26rXSpLNUALqbxX1j6IScW3q1sP44FRoRcvy+U8yY+jeCdgoHpvMcflXYxZMJJzE69yTFc2UzwZMxrg8bwry0OpRkhtWoBfvAI/k/Dw+dLXVUJ9MccENJ7wCvs1oiKLq9sCUWTaK8bzjj90H9WZ3PP2UeF3MdL9B4MVZbW7/EbXc0U5JDrt3iZ/92HwUeVmqZymESQWEsSPYE/1uYJvDAEYrgBupn4xnA6ALf+uhrDz6ebR6biqvfTxRLbQqbNI2oZSjcKwDLg7vylKQlbhekmoVNaVLfCNt2ynd5bKwZ19iXdwdna92ZeAQOaNzJekz+d/e1ijGlBhzwJmeZmHEw99esdjg1TgBSxMWWeAaMCrkhAr/gviY9h1M9ya7KxYluzBNS+7T3dWsusBumZHBow0tN4j5n2p5UAT13RMi2tRZWFjq+ZW1gdML0hVShDouWI5nZ099u+lU3BIRiV5etrDgGyP2NI/8NIxFke8k2ZfxVMjfcupKjEF+qUVSqLJPXglZmneOLcy12pQFTPvRg1VQUzRGU7446v69g/af11oPF6EglK/cyulgHMuthGXhpIIiZLRMR4LW/tJwrP8PqRDDGAyKtGXmK4VzmlG4GqaaijnbEimtPmOaZ3C3bft05Am5ri1mW+tLKlMdVFDEYAXLtSWz7Ww7a8nf8pRlb5tsVbtMwJKsSe9OvJy6aOP9vYbgfTmlDywPnajMwCw/jyjPortvKuKH5YmdY1kH1EpfeMujwSNmCDjiNw+orGvyWScWh7+K2TfVuycgtRGwK+2L+MDzo6CWzjkFEdu2Ri7itYJMvW3fAUBfgim7KTUT4+vSks8aoAdaVzrGp2hOcfzovSQ==
+          properties :
+           x : 830
+           y : 30
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              internal_properties : CAAAAAgAAAA03exMbyY0b6N00/QVMtD3bNKNqfeKq/aOBmzhjU78OY5U62aakseH+621r+pQclO1ivjz/EN8YtwpU4vrVhTT+gTU1XHl99fAjDMlCifwV5l53+jfX2PghpwzhLaLYCPHbFikR1dhZvbYYU6yqip/jDvUnXSzg8OmRPs3GIC7LRp9wkMowBOoI2zEb+oio+Fw
+              code : |1+
+               sResult is string
+               
+               // Defines the content of the variable dynamically
+               MyContact is a JSON
+               MyContact.LastName = "JOHNSON"
+               MyContact.FirstName = "Helen"
+               MyContact.DateOfBirth = "1983-06-12"
+               MyContact.PhoneNumber.Fixed = "222-333-4567"
+               MyContact.PhoneNumber.CellPhone = "222-333-8901"
+               MyContact.Emails = [ "johnson.helen@precilia.com", "hj@precilia.com" ]
+               
+               // The JSON content can be retrieved in a string variable
+               sJSONContent is string = MyContact
+               Info("JSON content generated:", sJSONContent)
+               
+               // It allows you to:
+               // - directly access the desired value
+               sResult = "The contact's name is [%MyContact.FirstName%] [%MyContact.LastName%]"
+               // - check the existence of an element
+               if MyContact.PhoneNumber.Fixed..Exist then
+               	sResult += [CR] + "Telephone number found"
+               else
+               	sResult += [CR] + "No telephone number found"
+               end
+               // - retrieve the number of occurrences of an array
+               sResult += [CR] + "The contact has [%MyContact.Emails..Count%] email(s)"
+               // - browse the arrays
+               FOR ALL ELEMENT sAnEmail of MyContact.Emails
+               	sResult += [CR] +"- " + sAnEmail
+               end
+               Info("Result of access to the elements:", sResult)
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_JSON_variable_description
+          identifier : 0x2c0f9dab05437040
+          internal_properties : CAAAAAgAAADaKLBrgN6RrjGfpIT4AZXmW3m8vOFiw98L7q1hOKcsAErKN2zFmMDP992iPztdTE6nyN/NmG0zdnVYigv9TDlluvGgA1mL7Oy+Emlezg/JjMNQJNLCORjwHoevypFtvptrnopNPetOTH/iTLe7Is7qLrFROqlBsqQm5K55BG69uxgl1LRPwRA4maFFgjj5EDbmXMZvtvnVSi+QwM7Dta85IIYI8KZSFal9z+BG6xbKbHQLg1r9Oo3eEFVoDWlN7VhQDcutZ/8U8p8SDODibC3bJnsplgOx6CJb0dWGvbXEuevcWMFFiv6jxvnWE+IXFDzbyf6tqDGHvCkxYbT44SUHFnYmhecGGBDoMBHR4V+QmGx9rJlbjsvSAjB9PUp7Ne1nnEHjORjQ24a/RKe85rY32SMTm1TQxEFu2Zbttx6rsFtdHGKmyJrifBQ/XeaM29nUgDXs4XmQPLMQ1Hb4p6eSChvqIFV3KJ7cLOa6CW60gazmxjdcP7mQmv1ISpD/y4VEiYk5HtxJ+4iiLI6dEdD8HZzxIhh57YatvoiiAsASkuQ7REDgCEm2qG9YBRcqhEdxBCv8mtHve+fKzNVbOofORyUd0J0qe/LY204snVJAiUwhRDqbLCH5Vf6IMluCVXXIE/X44YaZgWChgicAWkRjqslPHL2hDUaDVmOHGVAiGQt6UQE2Kn103bTrhz3iw8lyKxMARRRnSVt0jsKlUiGqmbsBKxf+QoZqhPUrppFfcyWWpihLQaiIVoEeYemyWpvGx1Bvwp/HcMD3A4blCNq8/ZngGv2703FD7+SUC4Zva5KLCUxmRPPfenzIdUUwKIK/tPbal1hjvdfFtaOSdoT+37zUsNQfmiroUvowZ2aYQlWhxADwpqwf8LdGn5j5U1SpEk72+jGnZajhI7lHbA==
+          properties :
+           x : 830
+           y : 106
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAADIpfO/fbTr/yDDzLPQVWUAU6zdev52qEmkCZ87c0cihWPtYieQz9sLvm36c+onhi0aS0UU2zvXJEJAZuXrT/kLqf+nNp0G4f4a8UbgKj58CAvmsfMlGe7ABgaBTkXaWhsoBRWtwdSYvzYQxJxq0pJ6aiRZpXQWW5v8MVb72Qf2kgDmLyADmI2rvU678pvzNrhuRFCu5k4lxDeKiRvvJCy+4p6SoND1AzVOl0gDfrFoy5AbNBzHsoNYxeOc+RhvYOC8jC6PRz4vxS7jjBuyuYlOfiWJR+M=
+              code : |1+
+               
+               // Defines a JSON variable based on a description
+               // The description has been imported into the project explorer in "External descriptions" ("Import an XML or a JSON into this project...")
+               MyContact is a JSON, description = "contact"
+               
+               // This description allows you to use automatic completion
+               // Enter "MyContact.": WINDEV automatically proposes the names of the members defined in the "contact" description
+               MyContact.LastName = "JOHNSON"
+               MyContact.FirstName = "Helen"
+               
+               // Of course, it is possible to add members that are not defined in the description
+               // But in this case, there is a compilation warning
+               MyContact.PostalAddress = "42, Emerald St.[%RC%]Seattle, WA 98001"
+               
+               // Displays the generated content
+               Info("Content generated:", MyContact)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_5
+          identifier : 0x2c0f9dab05447040
+          internal_properties : CAAAAAgAAAAgpRKNla2qyq5Ra6gJ6w58Vd0GO7iAICfKIs6HXEujEzN4BqoxOXlHBD/A1Bqhk6evyL2e6yQUkczJEeEXA784+PyHlHrEGD/llxNqdx5eXVuEn1vhcCpGRaa8+hpwC4bibmhl4pbVunlEFiUBpdZr48otTvDr2K/aNbKC7e8nOYz9gQEu9aPk9EZr3gm4kM8oTrW58IlZraK6xrIaGDnoZoiiZzgxDeiXeMIN5R330NbEoDo5V/P7iSN9AhHvqRU0LwiKUYph9JiiP1I8cSUGUoGRKCmEw/KJ7z+FzUFo1zUxV8RpH/kvY59I3Nv/eGi4Pk7lSfvaTBilHBzGPc7ncda8u8VXe4SDADY+Ojldh5NixVOEJqklV/94P1Gd+Vp82XMxhHa+ydN/4WsBcc0dgofd0WpW/9sO61X7BKdehU7jPI4PNKA/CRA7EP3GgJIDbFXb+NS7SnAgxy70DMH15BwBdZ9r5Da/zXfvFsTw4fOzXn44U/kt4YzKdWIvUtaduT/ZWKpcC8t947iaqe17a0uywXs/TgkhEkt1m1P/7fBJF5YWLNDvzxoUNXexvZbwcdZ5wT9p++nRnmDog/MRHi97ufbbHhJBZ+Ddu5YjZkSxjiLqDHfqiI9oadIbVf4Ecl5utOyJ1FaaX610bu6edcD0x31sPl1v2oBurc21rvkkoTw9yb2tlRWrmSRMmyu50cTid+BSPWXlMg4quYwwnK2FNfRXTOA8Hx63YH703C4YSDAM5Kx0CjP0rrReqffqJzJawuvM3q3MEmC/zP3o2FgJXMDWRR6iCObHXFgy+R6qbei2tkT6EJGPjt3IN0vEFE826bCaniE8DHT1uNpn6+GYX6pb6ifHr1dwLYM3YUfXtC3+Y/iDUYwSEkoz0F74C9lWv89qzDo0DisgpbKDzyub/ydNf3uhE35RqkmJdmYTRMZtOZU+tpeebzz4QxAW4mfhLMTSaOj4wQ1/fKnbZhndEHwYgLOC/dtIrn3lXP8YnzhGRGQMkeAtXHAz4JT5+IVQ1OkzEZAk9GhSDHHIXxE2Ntdf/KRK73IKJC6oBhvW1C4yLmyiNmK03w==
+          properties :
+           x : 6
+           y : 106
+           width : 799
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_Assignment
+          identifier : 0x2c0f9dab05457040
+          internal_properties : CAAAAAgAAAA/ZMlx90GOm1khIlyW4iPVXaAb9+NcaSFKmMG3375TQflwfsE6jwNsSMqxpIAmYX2OKvNenzDM705IwGt16ks6JlvfB8/aduk6QIj6rPmokIJKSucw/0cfWu+GAbalhLttvJVyBcRg5HFGZ9fhOrj//tcanhYL0BoDIuWHr3XocqlT+ujGi4d1p/6Oy6SzUXBWYO+7ymIsqzRoawgBwzdDVklZQ+Gmrc2GY2/NiyKQNOQMKmzfB1FVOde2dtZFk5WgPRhxW4rlVQygEmBmwNRlaHFD5u/1y/on1MiJhh0dEcQekPEghhE7x/UDNVOTEXlzeL3duHTbQoSgkrqK7c6AOYcKbObI8dr82y55QtP3ZW6PO2YTUjk0rptln4BrnaHA0stHU5vbIf1ioSVm0IGQZMXhay7/+N3fDauVuuS4QzzxETOSWSJpj9H1IE4+F1izBOH67S3eX7eCYKun7heyax3HOoZ6tJMoWva1diXgDceAeS87vMmDPKXMM1sWRyGffSoTvznj8uAYJsXyjgJS+phoUn9gUUMxkOQ1+6Pu3n/tG5rB3d2tnqvqVPyJTm04eg7Ccc6BLFesPox8x0HEuGdCFvTb1W0iH1oR5MucpR25AYA63UW8R3ZqaSjlv0PNwU7M7O3DgI7lGqJtE54ZxZ2AIJJGC2/DpOcKbgtmPcbufKPnMR13F7RpIkLNQdsFjZSkKJM9/M20KNPUHwfsPEqrG77FWEfgiFfg5WS734gaF7QuFBQXuptEPO59RsfBK8nNSfq/S8wp0aC5oBEWj0aQ7xQX3n6PdYgLc1T1huPFgZ7EBpD9pIdC0YS+rCQCgiKZPT1n0DoF6Z75RcDlM4fBr7iN1k07bgaO7A0vGXlBm8xDwwfCqS42
+          properties :
+           x : 830
+           y : 60
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              internal_properties : CAAAAAgAAACZWDgDJs46ZswOGCaC1wCjuj/1mQqlQdQww5PdqFZpL8Pe3wrbusLTaXmJKfzo7+U7ICpNmm8BNmy/Xy498gUOzAATAt6I2BJLnyqkLdlHZRiUln7Tfmkma10oh91RHSFUrWWWg5bxtIlnAwE6CkJiopy5m3MQ0EWt2y6iXKINXxy9Lq9YK7RPCKCTECqE3g==
+              code : |1+
+               // JSON content
+               sJSONContact is string = [
+               {
+               	"LastName": "JOHNSON",
+               	"FirstName": "Helen",
+               	"DateOfBirth": "1983-06-12",
+               	"PhoneNumber": {
+               		"Fixed ": "222-333-4567",
+               		"CellPhone ": "222-333-8901"
+               	},
+               	"Emails ": ["johnson.helen@precilia.com ", "hj@precilia.com "]
+               }
+               ]
+               
+               // Defines a JSON variable
+               MyContact is a JSON
+               
+               // Fills this variable from a string of characters
+               // The string can be a fixed value, dynamically constructed, loaded from a file, read from an HFSL file (text memo item, JSON item), etc.
+               MyContact = sJSONContact
+               Info("The contact's name is [%MyContact.FirstName%] [%MyContact.LastName%]")
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : EDT_LastName
+          identifier : 0x2c0f9dab05467040
+          internal_properties : CAAAAAgAAADxKFMzzLh/hkfxdViPOVdoSsiXEbcA2APaXnGTO1+h4hfsTEKDyl2wVjOVLGEFhyBMPPnyPO5jVz0oIAmexYO5QJHLp9h5F7uNXG/D5/3qILyiziIzmNbQr3Z5OWGaQTS1af0ww0/ZX/XGIp2LPDAO9I+dcu8txrpFxd5T9BGpn79SC8dWwREAadgXXDnfoJXmF9pjzQiphpkVD9PYTybW7w0xH1JTOw+CktLeIWgcy5/ZoDYeLjsZ7fyBzRlFZH7g0uG/nf7IXPXvsMSyy1c2D+hvL7l92QWHtCnVmrkZSb0pVnxpEadlMBdW9f9m7kYIa5pBigaJMS48K0r7wJu/kXAaR0OI5IaQrMkeDtmMDnuBinaOxlMO7xy6WxES74jIFdWeTTOtofCt2SBi5WkqUPH6EnHQoBQ8Piag74MmFisKVmqrZuKdTCUHz3JpkOtGAfUyCZf8cNPuQy42reTfc3BS1JSxPnw20U+GouQ6UN91w2/L53N7raQsV5g9CzYF/MCRGeSIEIyYmvZ1IfoOlF07tCoe6pLL+rrW0pObYqAY8CuYtjwNCMOBu6TegVJrBWSqPpo4ZN2C9iPdzC1r4fgBvTwBMlyOoNvFv76JjTiWV+h73RhZJYTtc0y4VZYG8J2txwi2WUOKEWYLvZYfDNvnKtpZqFvqpeQziIMGO9d/zgeZ6azgur+keHvd3UaVh6pBGiSGwNv/q24gjC75fetc1lqCJGGyeqChFi1YDv5UyPuBMheV9C8gmSLqcj6FMnh0Inj2QF1+ZHxFCnw4YQ2ES7B8DH2vr5ZWcReV6jddIdzazB7Hj6oOc0/GF+iB5CeD1Be0I0Zi7Ytd2YVqGi6sCpYQdGA22tA9PiiKNoItbWhrY0nkfnFf3t5LyjcyM0dKQCXW6uxPHc/F/GdDyiIzXV7PRfmzaxZqovNmh4NEpmrltpo/F6LhF7UheJZxMBu5o8uXrHfRP3jKzRfAkb2fDDOF4GynyKLSlmSKTR18k836tCj72oDkmo5u+kJoi6dj17EJDkhxeLxWviRqF15IvPhuQjHXUuOTV2PmcLY1RfvYgQ8N39WwF4K8pDWqMZl/JKeEaRgFaP2k4R08neQJwq/fTFaE4zVYOe4ZPK3nw6/jqLBkuNutvEcyMf5cmYriYkIoUR3IUeqg9ZpZy4DeXmHgfzJURGa6dxJmKXt/sODM24Bv+NHlUdit8h+BI9hAkHVnkUuGcIiiERhyiNDM0AWCQ2xbkjcdvI2yOeiYAJ3DltJwMwZUN1o0WkN8w0tTzsTxwj9nSA3nlehrGgs5e8Yrz8hdHMpyzpHKqiRwvDgpawSZpy4zy7D966QxWVmup85YRaMmPXnVHNc2kG0YMZTWAcOQG7ZONKhnvzbNH9ZRauuIZU5x1GzJu0fZ/b7vKk4FwhO0MYOcs/59
+          properties :
+           x : 773
+           y : 188
+           width : 209
+           height : 22
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : EDT_FirstName
+          identifier : 0x2c0f9dab05477040
+          internal_properties : CAAAAAgAAACsjCNS4pUxzRVgCUZA2Xtf9cAY8SGfoiRNPWC9M9Zo6HOgj1DUrf+GUZwWd68E0+aHywspSTkkX5LHZzks+jiR5lCM4kemnI4KMNoGVLa7ZsbFhaOvxLVGFU/5+vrfjgz5PRT4z6yUUCEgKlI0BzULXE7U2RF2IhfgRP1uSGdc+V1sO92L7HFE3pgBhHMXfCPk+pATXE9lH8V459XhScjXKkWTFpqGm7IdYiRT9Rky9GzECCF2sHZzHpScqKetXTJvjfC5anpclSPrp+g861dlYgbwEHJuEUkEBRPP7WjnC/7gnI7Iuq3Ho5+DWhODvAdcaI2VM1MRzniru4qnAsK8HqxmH/r7LFCRLvKXK6K/Mj9y8k5fRIIl2Np5vUt92RiC8WP/fp446I+xSA4MCmWHoLMwtPbS2KYRL3oUo3HsEFLzLE631FnntCMyN9BpIeSah0U9erUJbgdFXSOyx3o9LajCaf3h0/Xp48d3Ile7SKSSmG9J9bCCu16hNlMTiw31QhAc3sOYoTJSFlwf7bucVHLOgddF9gH1Q1HLQQRFeteC7obOWppdXcYBW62Vzt1OrSWk4mdCGMiP+aeXu/B6wHBa/u+AqmV49fbHUKdgczj2GGx3uGgj7rjvHnlO9qNrJw2nVNBWVvfnot80FCBrsOMjfi7MefjFZIiSJKE+bmAWahwNuicRZJCs83e7mIHYNsd/M3qQS/jL6bGL2XIyXlg8S5rEtGRCKPLyH8xkj7fJRuZ/8gFYdvOY1m8VKIdC07bfXAAss8lMpp+W6WaFvm4uwCoISnTV27bN8g5dU1ASHwEakhy8reow6Jzp/Q3WrbOqygvQSEC6qagK3E8T+XGyscR0ft2kpob4BSl69feehZXFL9OBYtNtp92UDhrFKp1byp3uGb4/VzZQobmsTSEbmsjXBZyx4753yZxKFDitPqNrDiA0hbp/3IyCPK+gg4NmqacrZ90BabnfWCVDPr6XS9+zXHPHZpRPnfWy9rDrf1CsEDhaourGCZkbUum9TJ++t58r/UD3dMlLQeov7NcAjaYKFp5Vhq1KRBZ+KQHsg/Za7RHkEzswPHkN0mBjlhdgnEFQ2GqRZGjVCP+TBNcfD2f1sLVkaZ27Ap2zyWZsf+JLJnQZrnO/F75DoamdXubz5pDMRofwqc1/jrjqpI3kc3fEnwWoaqotxEXIGBxE7gvoqaqkFPuvIvv6wPoKyCxV8G8nAA+AWGUXBGazt/tclU8KnZnn9nLlaNCWPiRPyruvXMrEiaL9msJgj5mwbwyFshbrS3WKtew2IuD2K5JpkEohcIpq0mcY40Jg14VlaUf+GfxSgkg/WzhlbbV8SIe4Ap2akLWyA+W3FvTEjM1x6QYNfX9PO/1WYZspo4jnSBoQpPuVoPc7sRlXJTkIzNaJTY3oMdKvsfp8XOSohFygVQ==
+          properties :
+           x : 773
+           y : 213
+           width : 209
+           height : 22
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+        -
+          name : STC_Explanations_6
+          identifier : 0x2c0f9dab05487040
+          internal_properties : CAAAAAgAAADffj29b0SbHM2kx++CFRYzwIzR5RALZf392o/QoIkyfNotIcLwgu6xJbihtEaFUQidBQRA4BOmKFVoaVBqezKTtPpcYPqOxrm0eLjwQxp1ZT/iyI+RNv0KI053WkXgbnWgnNBxzTdNqqUH5nt75tMV54eLHp23bCf4o2VKFSzXIMV4Kswpup9KhV2pfRlCQc/JvQ4PFJjwDKBEwEzj8QrQ3u3rvB8/rBn8A81RZEHEwqObOeucITcFIoUiflrsiRe5/+n78Gku4eYueuKxV77i92KYxPMtNkI7Om5Lu2tAnANzJ7SYsT/RCa/0ijFqjZfXkUBhi5rgsPX3t3Fub1bT0LzxkXU2X4ftuucc3Wq2zdgOS5+BfLU16vEBy3WTuj7DV5sluKkI6BItfdziDa6KMLxtqVgP9HDTxfTH72CC1z3q0eJ53Y/8/Zw2MO9ab8g8v2DJMaktfMH0M9jUN8nSpLHYIzNXuS8zZg3ONyelzgKNrm/1zGSG98wHvwcGF3/Z0tCKku4C1MsyAdV9hS6squovFtzH1TByGlQW3tz8hwXEZF7HRCmRIbBEFN4AIowZQIVHe5USpV+z12K3ij5zz9aedZjpXaqlDzktkDPseDMix/hy5P6i7pF5nydUagCPqz+KfpKKZDT8FI+PXTvy4PmpISUcZdEv9vNIzj6MNg5fbHynl8zbs788iw0Jor+gShmadyhVY6llrWaZ1KO6J7b02Qz/55zBnJl3r7+0CjHTCVtyar8JjBBP7qsYN2QAgRHAstnkXSSGMWIO8cTBgn+M8d+7K1TMlf64I6i/Yg+JENV6tfJAU1w/KNYlRxwKtYgQUhJJSKrlYBBQJod2OcfdY13fbtT6ZwF6se3m76cxL7TCAY20+GdhLQc32WXGWrXBmBVXC5v3qB9oKkFcwN1Ps9uOco2w534aRTjFRlQ/s9fjWLZYDY9SWyjwozfLy+PwrSg8EvDGsmjWZqNkJjl1+aJJndyDFB3KP5COTjIqdTFpfEHFXWkUPH9De5v/dCTPLpSKwdhW4vTLVoXMBB69xAyJe9ZJoNIE9L4cShWCmW9xale/5rGo2MIoDjBxpRtVZPAJ1C2ZLsaJQSOJDiLWZV1kPNsyuWN34NG83wTLbPw1fNBV
+          properties :
+           x : 6
+           y : 158
+           width : 788
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_Control_link
+          identifier : 0x2c0f9dab05497040
+          internal_properties : CAAAAAgAAACShcOdkazKqsQpEcsSYxTFkSfT7TXPhTKz0fFIldNGDzNDziFQACfh4WFtYazb3jHMKRvky/G+gPWnBmjd/xwcgIjbUde+Z/ZjlKGtlqxWuLMNCpwNGTMUbk4trfHlWf6UTNE0pZHq1tKUOrWv/u8Cy0kewXcxAzZn11KFGaNdVfNKAwlnJddoqkqz2j3UhCVMI9tCVx50VnfyplryEXoX3zXZbof4rV/AmnmfPUREvqMox7kFSPkVIDXJOdOG6UzvwsXcPLrv6RLO17ZjGNAm01OAnI40kRO1Jx9nSyp16+RV2X3l+IAkW7pNdMnvPliWsjhoWFIYQjvAxaRhAIOkpGupldi+sD65gCsnPa4bpqEtsFeeJdyh65/bOjEorNrm8IjwJ9A1vpea4LcMJ7jhvobCAL2WFc13+1DrGThDF/5RnQ0kigsiqHPeRVXkNmSp5SL0A+gGOzqLN1eIxkG7PfoU/Lz/7H0XC8VvW0vwrqN5fGc/bcMnv+43ZxpKCbJpQmG3DzjPimvpVz/xZH6JsDvhHIURuwWC1ztbttdwEQ34CDpFsN9hpVA/kgdXxuqOzcPKVWW1Lq71gfRn0TnDSIJ9stwyOf3P9tdnvcHoTFkS8ESC2hW85lO1WdtHHzwriv90uLDLOkfUxzb8JQLswYyVyFbjaZHW9WZwka2yeNDrYefPpNdjIn28Si8FT/B9CgGEnPLjcHaTzd9dazXjelDgBAhkkI4XGPwtFYjyfAXLJYw3RAUQEg250HHqzbErhswoD23/CdymmUtH7fCy5zGV5w8DJqPTG65LCrZynFNb0bvP4AdQEIp1DRuT0CadqDP8s23Il1dvWlbaVYYXCJMCAKLIXRiH9Dh3C5glcEjGiCfmd4dSMv0IzmQqhZY=
+          properties :
+           x : 830
+           y : 158
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAChk6TvO9SdxtGa11gsJzYfEQs+nAZX1wtZEOumeGVJmWvG+JhV8lVxkkk/RmxSO9zB/KhkBnoRxcVMT4A9k2/TOhIzpsabEwUvQSnX+42xASDKs4ovPgWUX1d8d1yMPK8OSq5EY1msBMrsHUY=
+              code : |1-
+               
+               // Fills in the contact information (JSON variable with description)
+               gMyContact.LastName = "JOHNSON"
+               gMyContact.FirstName = "Helen"
+               
+               // Fills the controls
+               FileToScreen()
+               
+               ToastDisplay("The LastName and FirstName fields have been filled in using FileToScreen")
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Title_1
+          identifier : 0x2c0f9dab054a7040
+          internal_properties : CAAAAAgAAACqQPOvm6Tp6swEkEBlKmDE31KWReVgSJMi7QCCJEjZbRqV8oNgLvcz5qQByPJJnGy2ISuNLrsMVTBnV2IXWFh2IojNVfDE+ydXTrkIBgTBnfVtYL/IjN3k2LTANsStVmmAevUlns1gFr0X3Yurj2q18CD9LoxiX8n15rKAZ+RYPwBC34bLj35ANY/358Mz1+GHeDb+BepnMWvhw2tJUIXrHKK26JoT0ay/03traz743RjeYpJCUvzPNdqkTDSwD2QA3/lFaM+cIeF32/04b/koGFy09tSPVsGARVsQEG46Mc2dd+fGrU/+ImZe4jhK0O9IAYL6i6/tw+F64wxyo/M6kyqOHg7OTJd+Fozhfu5QilNxeXtsQjR0oHVwGJfbe9vUPiOALLTa40Ww1poLQ9Hy259xjjJ8uUT4VY8tsfHRyIbcEqJAJJgaqJl7KjU79WgFUyEvhyM3weFo4yqk2ACQ1aFZIsDBWUs3rv7P9oMUqo4k+HlBpJ1IAk3Jq+oqZpJMGBVp38Gln56iBLbRfkIZUwkj5FYWQ4I=
+          properties :
+           x : 6
+           y : 6
+           width : 986
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Title_2
+          identifier : 0x2e563ad301a06695
+          internal_properties : CAAAAAgAAACNdiiSxH1Q7iG0b9Orfw8R7Mehloi9nstqVBdIVA/HzwSUAtoWHvF+y0TrTyKow3QUqmUqSMv0t1jJ0fxnv1F36iwId4hHKF8kjGspe7aG94BDMmw3j8c/gNSr8b5IkvbxeBbQ3HZRKTSDY0F2FEboHcF4P1La8233jyWM7OtzidSq4GZ4NotbpUiesGujt2DDCA9xEK/zYR2TfrYKG0E0WUgA3Zakv7o+8XalkdqzfyFJ4CdkiXhnK/1nK1lfCmLmV4VAHBY5gIVtX2n5SyzsaZ3GoVYcauxk3a34X6ew+pbv++EYQiKpb55Lea1YQMB2jvfBXGc5HVvh7NaIBwq7W3vVelh3DoYtCY6SAIrf/iHLyBeJlCheNyfWdtDcjPKCGXb4WEjO+OyOGhjRZUt8jcmpx4sxoJ9B6hgqCi/RTskgZMYS2oDHkzDTscUw6E3QG/SsTE+b7AZdTPjgtKLr3489+2g+UDUrB4S/HhyX2gWa/nXWykCTBBwlxVjNJv0SnkcrHeePxhm4Yp6y5Sa5eE9hz5UPOYQCIZYEF6lzWO/oae/D3yX3/Xp/IwE3HZnZ9j/s6mKEhQ==
+          properties :
+           x : 6
+           y : 295
+           width : 986
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Explanations_3
+          identifier : 0x2e563ad301a26695
+          internal_properties : CAAAAAgAAABDN3AfZIp0zrQpLlU5FX357EF42OlqkDZbzrNMI2rdhrlq68LFmmDJIUzldXNyxNDUqkBEr6x7Qs5sMVj7XmjefWqtveoLeNaxsLHcrI12Sqle09gsaWO6vUZasgSvZqLxyWryy1CBHBMGqOmc+4w9m0y9qJ1oMxZ6gA3ml65KksZA19jUJNVek9FHBFs1T4Mliid3+hL7Z3rZm/vSAHwpz6CYtSmOcYj1KFmvK2lIr2bgntbdBfmdcb7lyh6YAsxo4E0BcosFRyEgKDNIqqFmhTUa4eQiCOdyR4t1YWGxrbSOfmvQZfBbVnKkBw2Ce97EpgK6H8XstbRxacHiFKimJgR7qhu4WT9lIlZrPtRq4FR/yrWyWIfFjthQjoYKbnsRTucQSzLG+lEinidEdXKBjoTHQ7gCgBGMQcI7NhRjwv2W9boTmyyqDthiRbMMrQY03yqP8izeat3TUrl+Otp7rgX3fd7PxT9R0tv5RAEkH6URUeSgsHPHPGkO3rXDjs9k/zAzoyXkdRxyaxK74CffvUywHWcCrLvkq/4e34C5/PYqrGGyl/HTQoz2PtSEHF+C0up35CXA/a+/zrlzycpYuR+VGNbvNoK3/MYtmehmZPDpVu6PRWwR7ivgZdDbH1V9OysYtDAjN5JjkHmfBDcdkkkT0y0VNrYKGSZY8tvXdMm0ujnwZeBqbJ/x1l56p/e1198CJSMnC3sGL8o8t6TKrExxAy4HUWT4YX0OKIXABQaqSzAvxo1HDSnNmjzxfv4Bo8yuQyv6PlMJPFOaG23jnURUxc0FsLhmLI4pGEVySo/5Iravp/nCLVoT65ZfMvMK01xA0jzqWu5t9w63f/OXv8XN5gTE81hRj5S8Gk6u6i8W+cjcJGlywfzPum6apN+7aBzrfyd3oB1ZVJDDuiBYkqw+a3IJjzCWJWsLHwiRdNXdVKfUJ9N3YQLkGrTzwC9JkC+vLHnAabEGH5vld/IMIZqBp3YD49C2jnf32ndvch5SM3mC2NX2gEG2ZXTRbyjVgWlTIlQG1qvIQQkI0dJwAwP+E6g9xFcHZI6J392gRN6brVxkFMG2aoHUrLTTtXOWyjOLS0nMy85Nfm482KvUkniWuIKTujFk1z5jj5DXApXEpbDGPlWYx2KlstuAOu4i8Fa6YuAioMdKlQI=
+          properties :
+           x : 6
+           y : 321
+           width : 799
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_VariantToJSON
+          identifier : 0x2e563ad501a46db9
+          internal_properties : CAAAAAgAAABwIXgdNbVC0t4a6ejg0TcTAZJDugxGXXwvrbUh780hTosjPFQWIWIDw0NuAD60uHNLKbAd/P7tan6iztgqhNF3ZM6DOuOka3Sae+x1GqUw74/ZgIfYSHLZkSZFZTvOMz54m83XO0O866paMY4xxx8a/Yyjj2/V7BHeOg46I8Eo6cjw62xzlEXP8CG2lh4ul+GqUgYILhROFuY2oZJM7/rJ6iYbs5BpkiDqVzWiiE+HQXSPPcEPGhInpEb/quF87/l+ZZ/XrowYirf1WtxFtdCDKXtrowP3zpaEyYJC/agNKGuk+3c+12pmirkEOeYnjgAp8MuKZQFnyfqApcrfeZixl6zk5g+4i10vT9xmz4QRSISMmJehSOBxODBQI+nbc+UHAMpJPBfEipLJ4TyVohjkPhsRMW61wEimpigHi6UcdUZACdkxjwX0r8oyByUUE3EXQiErVaNSqjx4YpTJj/i8Q8a9tewHoxu5fcHyQxik3gmD0i/NOKlTsJwkENel/5bVuFJhZO6GOMn0Av+T0F9xPLrBqeUAYPJa9c9UVHAoNOeyY2+92ZwIuM/htvCRCvm+EhHOWexnK+WR3/SG/YSuJFEs8lVDnDREyyyhGrSnmJkAE91rMPbPj4j8JvqT+3jjOoKDoVmwhn2qgX2HzrEPNF99NA5IvNZp5RYnQuinPTXGNfmb1PXUguxAWDVpsIdWu/xOv5kc5AItsS9eC2dU/4v3LYA6mX9pgyAdS7j5zDAS5Xj4WUXTNerx7N83wby0mCCsgFlhQODf8KbmbZ2CPapt6W8Caed/W4ChFiA/vP4bNlqKI0ZY4Nc67Bn2gmligfq0TMnGdlxQqXMRV0cOk9jPiBzvUSEnLLjJ9NJ0UDxOtWVXOIFHdmCG6uPE
+          properties :
+           x : 830
+           y : 321
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              code : |1-
+               
+               // Fills a variant
+               vMyProduct is variant
+               vMyProduct.LastName = "PRECILIA Shoe"
+               vMyProduct.Price = 32.99
+               vMyProduct.Colors[1] = "red"
+               vMyProduct.Colors[2] = "green"
+               vMyProduct.ShoeSizes[1] = "38"
+               vMyProduct.ShoeSizes[2] = "40"
+               vMyProduct.ShoeSizes[3] = "42"
+               
+               // Converts the content of a Variant variable to JSON format
+               MyProduct is a JSON = VariantToJSON(vMyProduct, psdFormatting)
+               
+               // Shows the result to the user
+               ToClipboard(MyProduct)
+               Info("JSON conversion result:", MyProduct)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_JSONToVariant
+          identifier : 0x2e563ad501a66db9
+          internal_properties : CAAAAAgAAAAbDfZ61TpQZaVWXQv1TP1C8CAd7Hfyllop8TZ5dQcROoNDxzfG9vjK5kVzJC9tu6mM6Pt+9R/mj+SI/zBnBrdpKJ4C67cRqdAYo5ZLIXfVgU+QI3QuQWxV7B+Ump+PAlS3EGOmFfc1Lci2s41d6K3mzsBoySWB4TqrNphPUJpR6z+YMFBaic8vx6gnMMBlO9zWLGRyz5H4p2iiZFGvAWPMIevCLeKi/viCLgELXd5zk8vZMA20WAroboMfO9fgHIrrikhHVkZs0OkfhzbXwnQMwFofasQgrkYN3nl9EvipIs93cPkeZsG4D+YxpcWAhdL9r5+aar4lPlmEmOpACYlETn/sIpxwuv8nzaC+4akJ5L5l2DbeFyLABLD+DPOzT3sx0gqWprH9rTWt/IyPVrTq3HGYDxx3K50QI/WXMA7BXvb6wWNvXu35pgKHFLNp+qGIobOOdvWMWMgojYYUIQCw6IVZyjuvCb2B6d5YWuJKLCZOEH54OgEn9JQHSA4ts96OT2RyteiI1t20fTnAAGVfL+f7+rb6WPZQZywKN6pC7rJHAy4k/7zceJsgjKdbhGP7aVM3tAbNlenptPC3vVwqr3oS7SLPYAyEH9VBNSYjwGLrA8z4GmxJkTbB1GU7VfrU0S5mUFNs7o0e0HfOZNUPk/zvf/caJnR9bQc5i8JB974pk9xkpMNmNvQtqBJ5SAuPvuQv2NXIDPCvEhmZf3bXXVHqlQ+5dw/aXpqHQte5HzilA9D2/CY/t9jSugiyzpbOL/JaWo4vQPCzOuw26oxmwASuozhVaPBCGq9eLRyPifP+zo2Zizx62LNnsrLg66Nr9NAERmFsILiHdf4u4xc+MEpAwecZq3VVUlcRUASQFSgmlqgoEQXFzobnvA==
+          properties :
+           x : 830
+           y : 351
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              code : |1+
+               
+               // Fills a JSON variable
+               MyProduct is a JSON = [
+               { "Name":"PRECILIA Shoe", "Price":32.99, "Colors":[ "red", "green" ], "Shoe sizes":[ "38", "40", "42" ] }
+               ]
+               
+               // Converts the content of a JSON variable into variant
+               vMyProduct is variant = JSONToVariant(MyProduct)
+               
+               // Shows the result to the user
+               Info("Variant conversion result:", vMyProduct.LastName, vMyProduct.Price, vMyProduct.Colors..Count+" colors", vMyProduct.ShoeSizes..Count+" shoe sizes")
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_16
+          identifier : 0x2e563ad501a86db9
+          internal_properties : CAAAAAgAAADSKGbWfer3T5TgKBROUsbDT+8RWmE234TwIR2uNug7xs0irkRLcMsWrWuYlcA2NJsAMXHJ2QJIhYdnv9tecmF8LKsFLxljtAH0XZ0K9d3XiqXwuK9ro8Ieo+T6aPPip1G1Uc5XS41cVh5TCvnJv8ZBDRWsO+ORNDxGxUoHliVnExdFGjf3OpvD1gj7/kNosNrZ3FXB5zL2//CNDSkRa2psbqZiNH6I2WRT2IWbdbgn9Ns8H39LoO81At6THeThjFxxQ/JBElLgtbT9PFXLs2wQdnGLBwquaIHi2FxfuG2iWlLitWh2Kj7dY5rWmNOu8F+fruO/b3xLrDPhtq9rH4QfUcvOy/onfn4gse55Ozo3/910JtoYD37Z78rwR5yFVYPXzhhg6yBNqGZHpTM/dMHGb8RESK69axP5JbgIo6gLdtDfLmENjqzfHiy5KddtYJHWljcoG++yVR2RpDXBCcl8GXisYeuEbInhGfLFRtX8q8G9vcvX4qXt4Sl7iSB8WYz6scju3OXFBf0glJ1dNzTlatD1xHS037J4x8dFyq2HvBNpYskRFwoz01bbHaqnbZdDxc1I8PlHLvmHi4CkXJVR39sEvTNm+durthn4ovuw3UpRnL+oSAXkJCSy6+cYj50e/MXzvICEmLc+gJRkhvV7bV2qz8WyGEYuAxy4KdUDKY7r5vl260ezrKUrX+vRrpz+K5/1hGa+5WZmzVSY/6B0MinY/TlAq1CZnnF2B8UN7hQ+gnm6Niz4PpxaRN8Sz6LCjtkp0tjxKuj4ikHnuMo9v3Ql8O46l20djEp++HFIOR49ZU3R9Mi3887DZRTh9D+ZWAoxSVrW8WvEbEEhX8mVBnqfpgXMWGTiHVFLdYl2MhhxRrubdP3uHysoaZ06MWGX8b09BikaPeWWwjlE3YQA1BUJ3ZAosMD4X/68wYQ+lHLMVOTJmDLh+HDvcBUFDF1AZEemafj8g9mHqXkZxkZZFav5m7tHUEvRDaO4o9JOjigHlS2Wr3/GmtFg9Ef6sYKdn+o7vxHJVx3aE10YOiHAyNn3IzXc91teJl+a75vQUTyAso6AFB70a0Cy8B8QZ5l6V79MDVO2leROwZwt0cIqKGX+gEZT8AMVXfsAdGMWqlylpGu0YKE9k36PpMlkbJA9vb+I
+          properties :
+           x : 6
+           y : 393
+           width : 799
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_StringToJSON
+          identifier : 0x2e563ad501aa6db9
+          internal_properties : CAAAAAgAAACVvgkszWUQL2XvD0wUkYMXYSr4yZdwVeZ8fY+SZSTv26g0PPydDkSJflxptGVM6HQPbaRF+FBVgbGJj3YX6PCkSvGUTEcwk1OLTIvSlHdVwg/qJklCHp+tHegXoUSIXSTdefTh7PluIOcEZvdPQnqrg/ZKZeI6PTRLGzFVKEheWOE4NQODc65uZGM7I7mPNS3IhcBKiUax/ZmlXx7jC7MIOUUnB+znGDt50MHrbZ0baagCOj3VHIp9f7G1xOUWqqT7jEtNffghKFa4iyHEauCYZvW203PCEw/SeSKm0AWBpUIWtvTHP6sqH3qGmCh1a7nWvdo70YL3alLbmGbtjtSZS2kN11BI68WKhR8+755Vh8O7VKaItsHM5SCcLTG6rUDPiV+uQyaOXEVr7fbECktEuxyMGAZZ/w5zPunJrhjL//Svf3jsio3rL7l8AP/HAEd8XqpP4mqWCQgqOO8WkCriSOQc0ZHuF2zxy9GbEhd8JiZPUb0Cgb0MINYgO0wg7/aUiOv5jU800VkC+rwGB+t9D+Y4y253nA/+i8FRN2nY9ArsdFmw6Gaz2E1NQaUO2pkvuoZw1L2zzBEXxbWl4Bb834XpsNzahPXq00BMZ1PJzprSsOc0t/yyN3akbfdIJSZmdAkHhmpUkzF0R7KKGzXTAUvwAg2dYFu/LfR4sWnrwXKC0gWYlUHBKuIwlUh2MqUTwacgWuYUfZYXm/rrK5yIXiEkF/tBCVYrC36MHLsVKOtMUIj3wgmu79KjH2yU9TA9cFmOiTAkJYLregOh2kd4uuqsD5yHQG/EcrhIvrzEiI7WQtuAzVe6qaJ5TE8GoCqW5vpsK+dVXLeIG2Tt89ABL9yqDX4fhHlg95FFi2uD1SJosDnIgApGf3SM
+          properties :
+           x : 830
+           y : 393
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              internal_properties : CAAAAAgAAACnrm8MLTf0U3puu8lysprDNij2hNUhqgH3tArYpLvHh5ThZXXKWZer7LssGQvG7W4DL1VrHgcMlwLvUyj5tYsGDPBmzGOQTnQ07Vs+LrJNdBJPeoL88N4R/D2cdEgOgQs06E+zHbjMW1FTFaK/LqiM5xauYjRpChfISe9GkAEoKw==
+              code : |1-
+               
+               // Fills a string
+               sMyProduct is string = [
+               {
+               "colors":[ "red", "green" ],
+               "shoe sizes":[ 38, 40, 42 ],
+               "brand":"Precilia"
+               }
+               ]
+               
+               // Converts the content of a Variant variable to JSON format
+               MyProduct is a JSON = StringToJSON(sMyProduct)
+               
+               // Shows the result to the user
+               ToClipboard(MyProduct)
+               Info("JSON conversion result:", MyProduct)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_JSONToString
+          identifier : 0x2e563ad501ac6db9
+          internal_properties : CAAAAAgAAAAlDtm8ffWAn1X/f5xEYeaDE2IsF2l6ObTi3Xlc4TIR/75AeH7fGHjflCRrlmnS5kxVwWz7Wnrp4+cZ7Xyv8n5k0D3A0gCLlEM/LtdGoF/ztvbeyD+0CBsrm3AV4yBq32BHgZgDAke2lhFYwBGjpDADnW66W/y88QLdxwOm7Fzu7O0Q4SfX916++EtzkyX7/dEspSTm9bK5dVWlL+6vlzPMnUUz01CD6OvVeJFLEekz1QRKTqmhsDJtC1l1TBEq0jiPvFfJOWSpWMoYA5FAbmAk0vWi/29eU+/GaWrGvGGRwd4O2hBjg2vqS6rm4Gzx4w3KfR5//QZHYn6T0Baxquwl97F50+SMo4V+pcdG02rNU5/7eBJckiFkWagMJRWurTzTibOKJ1rWpHEDhe7YLkNQJ1xQvII91xYPxiFZGizr46gX6yyQno0rexlkaJsRdvlSLOT5TOw0rwJY6lm4+kD0foq2SysIHXrLqeNVxEkCmLzl+3dMe6NqQlyqtdaidaiaNjUjb8HS5xNATKYoGRnvpXRKbQgRMi34ucNL2csGpkCiTlOy4kyZ6uMfa48weAt1ALiyltfJ6lNtz8eHGhQ+RcOLAs6sUksMmfKWKZUXCEj4alHWMWIYWVyu3+Fya4i8IouZ8MTKCeuimQwsVXulp1nypG/PrqHBM+Zi2yN5o+iY9Kc6X0c/7MgaR4oAsEeZ9wli3HC6q8g9rSzF/SLDf0zZIJQOrHEmTnvJUXQSa2wvrQmwN3SZiuFEeIWRvs9mkw5XeoVPSKfYFCFl0hf4kuDGCTWpeybPjZ1lk9XtZ8MNC+DFnhb5uLWucSQv8VlTmS+FDOQou5ZvRDU+sJ28GKPDivNwo5hjDpIGe5vTpRJYoMk4EJrWzwQc
+          properties :
+           x : 830
+           y : 423
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               
+              type : 14
+            -
+              internal_properties : CAAAAAgAAADFr9D3P1if8lXm4wyQu97fNWdmEP7LX1dFdO/yDFHJGedSUCTlnv0tNoVjamBOQ2RFiOio5n6Hq/8G5YYfId11PMDJNDC52auB47dNfQvH28qwCShpvIMC8YHC/QZi0gHQqKx6BQncRDYIOWI=
+              code : |1+
+               
+               // Fills a JSON variable
+               MyProduct is a JSON = [
+               { "Name":"PRECILIA Shoe", "Price":32.99, "Colors":[ "red", "green" ], "Shoe sizes":[ "38", "40", "42" ] }
+               ]
+               
+               // Converts the content of a JSON variable into variant
+               vMyProduct is variant = JSONToString(MyProduct)
+               
+               // Shows the result to the user
+               Info("Result of conversion to formatted string:", "", JSONToString(MyProduct, psdFormatting))
+               
+               // Shows the result to the user
+               Info("Result of conversion to minified string:", "", JSONToString(MyProduct, psdMinified))
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_1
+          identifier : 0x2e563ad501ae6dc9
+          internal_properties : CAAAAAgAAABCz0VbIA+JbQjlYh75hAj28t69d1Rg5nn40xhVnv5ABSIil8EKoZoaODE0tRxU9+1dCn46ngNt0fYZvk6QTYfD1ut2A8loz5VkWQWoK00zdIVFdUnadRIApICc9b8lAAB1SnwuU0tIVE8IJcdphzo1nL138j5qqL8niEP0HS0b4jXfCFLWwj9Nrrj+pheJHGTNHobxNAEKfOKt1Cpbg3975Zbi86Sz4UFnNyBJfQMK8ikf84EUlFh2KRv99GdLLmE0/BEwi7wUY52F5SdTCHmv9cudzF0lqNMnKY272Re39uV8SALPHWf2zaz6igFHKeakUD3LWxrq3Zt1fHG2fU2sOSj7NsN68pUQm3UMDI9o1ctmyyRpaAO5VjFaCegCxItpUZaxCn4gN5rFYF/OoyJLJj1OUWHSwEtMPveCV3RBIYRKf179VHN/2FlsOkl/krQQ1PTyas3OXXdwDtVXgY4zImsmEchD4B9qncO7HKvfqOOwHFDkw1wtFul2xCXpFjpiWCfA4Q3tE1lVIw4BunTZzrHlSWMa2KbHAoxouuTlisgwOpgLIkA4bWCPs57KiaihLBVHbx4Y4ddPk7Hh0376T+v5noPGt+6p1saSiKV6hglcwThIMhsnpOCCRmw2o8AXmRmxMvwCrY3IqpqrE+nCjhUT5aClCtLZRHIQMJC7k+awLFgIgs5GnpYaMrZSCPdK3jy0TLv9ZD1jL59VEqH04Vhz+5LbUmSKRuCUMagRzQhuwx4Rel5ju2G5S55LfcOryH92cf51qOUge8SPsqn4hqrXKo8XAZlbHGuM+ev00WZL4/7+7+sZkokjECPu/mwssr09V1hQqrAfsKgPnIViyi8tEjJY05xjJc5lYriosPkkcTRpnOhCEd/JWJT/EeL00/Gz4wk8mpVR17VkLglzD0/oXGOw6gUIL8fuyYTqhXdAlxLdGZqmQOMCfjtn/2Q7u++RG7xRnHI7/dqTu+9a4tTTsg8ZROUH0i64kH/et+xPln60Woitsqtf9D2HYuaUrUrox8zvUQpc2Dryynle/BiPDdTAYrGM27/oEYvYzxHqvF9skfSGrCGM4JXGS8w=
+          properties :
+           x : 6
+           y : 465
+           width : 799
+           height : 51
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_HImportJSON
+          identifier : 0x2e563ad501b06dc9
+          internal_properties : CAAAAAgAAAD0qGmVyNN57HnEU1OJamsXvMSPuOz/3o9XF3JDky1l3EiisHQmTVc6fJsUB5nsKsM+XaBjBwaM87unyLmNl5cUsP/dasiaKB/xZLWh6fPOgwfw7FkuXqk9XzWWstD1ol1d4TSsRyWS0dAJE2ulaSx4ZlVi2/96wWt3NZob34XEI9pKnS/MeUDYXrZDocrmPQQQ6sM9SxiMvW2HQavYNIR/fBvuXIB8Av20S1Kml16ie2ThT//UhX65rjyl25JvHxPajNB3GOY8UNyf1a+ltf9rigl86TqqX4cEBR4BkPyZwWaRImondmT3RjhwOrgmnyun79r3NDsgvAhQHzYR9EYvXr0ZVp0c4Kud0SjJqWUzq8CUyYFQzrJk8D2WwBFbVYdbO0geJ9iKGcbJJMYLzG4eGyeQ/6+0wyLjefDkvxmnepSuPbBD28gjgx9XSY17YK3jXa8n4VZfcbaTh1PhAEYkEY/zNf64+G5VmtzrZ0FGcmHIFDctaUBQCtlxZ3Os/+BVpZD1/oO9Oecx90b5k+uzjrlTvd2H51tgaHiHXodu2FP/MTcFEkc1rHZqSW74ZCGazbc+6eUmyDOOSFfAYOLyULC85AMyNznAtLUs0G9pNEPTl9fRHQsCdT2p3VJCH043WwqBpzjhkcnpVHbhXS+z+nT7+EaXkU2nVrPmYkd5gY9rxeN3VWZ/JuEFV8tkYLWyShrCQbgtTwaCaHyGLukLFB0AusUIhdtaEUrnQsiytS9GYrWrQb0DDmYvQjw7cLvn3oO/748GRouL/zFLr8Rdz3fJg70jLLPtRLCCyOYmPjRaInRik9bAcVrUVswKrFS9gfuju/hhK+wuIkhaFWbOIZS/xVDEHLuycMhXpXRwZI/BYlKdBZFIMBw=
+          properties :
+           x : 830
+           y : 465
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               // Stores the number of contacts in the HFSQL file
+               let nNbRecord = HNbRec(Contact)
+               
+               // Imports data from a JSON file into the "contact" HFSQL file
+               if HImportJSON(Contact, fExeDir()+[fSep]+"contact_to_import.json") = False then
+               	Error("Unable to import the JSON file:", HErrorInfo())
+               	return
+               end
+               
+               // End of process
+               if nNbRecord = HNbRec(Contact) then
+               	ToastDisplay("JSON import completed[%rc%]No record was imported", toastShort, vaTop, haCenter)
+               else
+               	ToastDisplay("JSON import completed[%RC%][%val(HNbEnr(Contact)-nNbRecord)%] imported record(s)", toastShort, vaTop, haCenter)
+               end
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_HExportJSON
+          identifier : 0x2e563ad501b26dc9
+          internal_properties : CAAAAAgAAADezgurLrEnJh8KcWm3IDGFzqKx3oJFJMGd9eBxeXsjGlqwWoKM+x2MIonafec68JE4e2q5/fyCrXnVzkf7Pe1iwlXHcMagBgGvOpvHt8k2Uv9knF/mlP4bIhA1GLsLXBmhV306Me/B64OPFsh8N/9quDSMLkIF0bOFKxtSFQSsQ6ry9RfsifD4bnYLYXLG9SyoWiPN0yDUteVvcTPILGS/7JP2FNBMQr10OxpW/3760+xx3x9MjTbxZjSlI0JXr7MK5Bi/aFYccMyPvc/9dTcTYvlMydKiR+8sbY55oCTZoXYJmuKn1sQ3JhgoOrA2t7Mvj6qHXGOIRIAYX87hrEY/fpXxPj0s8LutAeCpsRV70zikaWH4VjqMeHVmiCFjdZdbA7A2ZzgqOZb5PCbzzJbGc9cwXwf8GwpbcQC879FnymTWNXizu5gDg09/aWWvVLmHgXM7bdJLRYL/M+9VhLoA1SMXGXpkNMLx9pgnW0UavlU8eFuZ1Tx0VpW9Q2fQwywJOTRpit8Z7UPdIxKN9w9vwm33QTljwz8MxCQjAltCdPcTFauRXpNZWMImFTL8aD1eIVtC9fEyvC+qtKMUxGa+FPSQ6O8OEw3sYOFoFCPNkDfXW5sdyTc2oenF6aYWw9q7395l08R9JVVlsNIFAfPvXuh/fKKjLZHj8j+SJosNfTOviWeTQUIzom3x01/oZLEmPv7W3dTJ88LOZEA7KQfQeRqZq4spX+PZkEVRCjO09qoO1ka41tyB6pLD+Hg+qSXQ1rVKBFwHx3KYT1O1VZ67rVUvLQeZpi0TCvZU6sRQ9CpQKL7kAbgy94BKSM5IHvojT8lVJaYTTfI02IKMw8C0B/LdZ0L6VsWYBh4JBxKCqnXPECS3I7NqFjI=
+          properties :
+           x : 830
+           y : 495
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAACth7jys+XvskVGE+xIc+bPjccmsJ6bn58tHGcK/OHJoefKCDz95kUddoXj+gg26wTtGOjoBh7rD+taQXIDzalJgISdyKQFne9NV4MZYbeDDx507eyteCe2vcWeyeqeLpXkvIAuqX0bGd7wEUo=
+              code : |1+
+               
+               // Opens the file picker
+               sFile is string = fSelect(fExeDir(), "contact_export.json", "Select a file...", "JSON file (*.json)" + TAB + "*.json", "*.json", fselCreate + fselExist)
+               // If no file is selected, no action
+               if sFile ~= "" then return
+               
+               // Starts the export of the file
+               if HExportJSON(Contact, sFile) = False then
+               	Error("Unable to export the contact file records:", HErrorInfo())
+               	return
+               end
+               
+               // Suggests to the user to open the generated file with the default drive
+               if Dialog("The contact file records have been exported successfully.[%RC%]Would you like to open the JSON file with the associated default application?", ["Open the file", "Do not open"], 1, 2) = 1 then 
+               	ShellExecute(sFile)
+               end
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_HRecordToJSON
+          identifier : 0x2e563ad501b46dc9
+          internal_properties : CAAAAAgAAADVz6Qcm8yKr+cE58UHPneUorr7pj0ESOTjL0CbF+HLbJ3tLVH8CKKk6OP9roH/Fdte2plQ03mAKUZu+TJhGLFrMljIpXV4UIXin6s7GA3n+86nYbZzd+Ha9rUWZDHpyDoB+oUAx2FjVxKM9S8/gnv0kGJKG18L7yx9/LJ5OytxM28EcOSCXaeji+TTDKyRCwRa+GQWR3VQ0zT2KPWj9QvcdSey8SpGVoxWqr0fWcKL6z+1uCnsfPLU+pcr9+Mc9Bof1qDD9voExG1ry/ojflTsbL6nJoTs7kLRmjWBdpSB2nNT2O0uSmlsA0LN8SmkBdJ5Gz9+yjKVaj1w5EY0heH0miscRqQUCrsbqRzCXX3JpDI5IML+2wIMSBy6sAev18M1lqpKFkVtSfk5cAhTgpzyiIU4y2R70zn8h9FDzPJpLppWYYcXup1V6k7zmJ9dcNuyj6GkKAOKppqae8Q2v9aKMoNfyBWN95u7O1z2XBCghqDEnjTyQL9FXj79brA7qZholdqgZ3YeXK+2K4/alju5qU1RCNDg1nTSObrAqahI6Iyt+SwG3XIC2j1OUmkZqgWN74lltsTrUyuzWmbpewocEZiwQwRt/qpu6StXJ9ThOpyBIRKisKIvszjPwhcZY0Q+v4SUMrlS1D9Qzg1A4lPBVSIFvdFA3JpXpz3/FUgvobjXwSLu0sEUYJ6T1oxPfn3BrPJ1Irs+gnpJSBP/ibtT+UF6AWcpU0seCsrbWi/tE2yN8+zOJKKLSzRCDljyAhLa30qOKLDtoRUQouHTQ6+kIMW3KK4kJi6M1OlkKx6Ni/X4MCv/bRpY+pVZgEByWQ31fmr6XAsSRpKhHxQEPb1g0vT6hy3TYauf7PG/Bn4ep1rQyObuSzv7MDgpcg==
+          properties :
+           x : 830
+           y : 531
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               // If the file is empty, no action
+               if HNbRec(Contact) = 0 then
+               	Error("The file is empty: unable to export the first record.")
+               	return
+               end
+               
+               // Reads the first record
+               HReadFirst(Contact)
+               
+               // Retrieves the record in JSON format
+               MyContactJSON is a JSON = HRecordToJSON(Contact)
+               
+               // Displays the JSON content retrieved
+               Info("Contact retrieved:", MyContactJSON)
+               
+               // Note: it is also possible to retrieve the result in a string variable
+               // sMyContactJSON is string = HRecordToJSON(Contact)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_2
+          identifier : 0x2e563ad501b66dc9
+          internal_properties : CAAAAAgAAADQf3vGXvaF1A/zFyGxzMcnKPrCTt5wCo7AIM4netGhv5QOvvF2jE5MV0n05dmXSU/nGe9v60e00uyek1ekx1iPGve3P+WRL2K+H8dqNcu19P8fPrFUTbIvI+UV8dWWvKhToJgQVYqpgrH3M2/ljFyjsWk0SzO4rsHtr6gm8+BEuZfYEhCa6scsKoey/8GKaF+r6rY7xydAJVTMtVsnZoxZir3Gazbuwzgq94AMtTpugoRl4oNGUQItIZZ5VL1co2Lc4faQYQ0X9qxaa5HpTbRYaqYTVTjIpTXxB/ZGyQWSkZpacQWeIoLmc8P6vc+GpqGR6N16Ya3ThSbzx2CQfBKxrVNoFibB626GDdasmppeUoKTnW5h8naIN5ErnOApB08qLvDPv3HHV9jmyGqqc0jvBws5HPtCsPuqUPuYJDmzaQq3oXLq8w4eQ9YSwDca8n6DGVZj7e51q8qduexC4Zt801LVTJyJ9m4NDri51CbaSgMlfDMuVA+KFK7eRrulkYPnJTXeudvDx2LW/d+BM6BTGxQxiH/X/Om60u0vOD17HA/qgepxsO5O4KbwIhDH2XYWtAjzZ0p6YRqhusqRnNgwdJGkTHUsZXraJq0rGEbqvnbc3KSI2rlnCyILLSSn34TGLTZ7mI5ydzqOweNtGIcmX1F2eSDR/iA4hJ/DMjfHk3G4t6Tg9mqgGaK/lTwtFN/96qEmCvGLzug9bIrn6aNA2rrgeoxqmhLXIyEbXNQxwT65puQKGMA9eGuGs8V7yNFpHppuiHy75yFniLjICukSNg0wRZIF/ND9WuxZB3Q38OaVGJCKRy9pICqibxfRLxUkKUKf3S5Uz6gu+4b0feQnq/aD5UHJpypLsx5Z8pYWgRXP+sdG8ayBRQFJz6ZS4n4tlTBb59+0ZLTRbyYpP8WYAGeeWZ/tboaMK2QUxn8Or2/cb/xp4Sr99rgOwZG1ifAZxsYFJvqVC7lpHDKKtoqK3apdyLksqw==
+          properties :
+           x : 6
+           y : 531
+           width : 799
+           height : 24
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Explanations_8
+          identifier : 0x2e563aec01d0c5eb
+          internal_properties : CAAAAAgAAABI3bRBqKGlgSYj6Eb81rUcgO61Z67ESIBmgRoaIlKWqRAojc/6seaYQOdPiZi42VHR8mJOBjnPPRhMgL8vlk1shIgomCDoREH05usIXqwtP7bmjg3QELy33/RvhASVRFxm6heouiVG1FluazcHe4WpZjZmGxWGpWrYfrTqMWHQIP1SloCTQgOVoB8KDiujCJTUVnFDNVRP2+ZgXU9nfJ0ANTk+uJUd+FCZTvJm1/RGx0hs/sHRBDqUVuhjyi0Y7WuDkT7wYKHHWLpkhiIJP6oau4dH5emfOjIgm4csoM/WkdVCJNlPH4okYTolffUpOq2AOTdE/UDGScriijDkXGnte1g0mltx4tiKacueZJD4o+0yhPlWr+q6zUpCxXJolSTCW57RhTE9y1eVbPuCR9TzzOM9hWh/Y/3VLN4hRMaI6u3rRrgvTmFp0t92QVZvliSxuqT+mJ24tvem63bIACuL+jjnItWhaVtm2/jKz0jXD++WwArfLjNwcwX7xaKqzlXqRJ+mYeLcE99oISz1ZGOVmDbnEFXfNReNRedGbiGCc1FG3l4JdBWIytF/mz4q9YRWoVpWOJ4rrAJyNNv+NieP/L3VYGz+65LtY7iG1sdghGsuPbykjof7sj6CpoRet945G5f7CvD+nWmsgiI7cwk04uF7zTgtKsjjjipYwOKhFYTWNgZ+gJioEEAeFlCISvusPoiAkAdJ0p0DPbkpZtVEE5LvSRSbjwWRMYTFbrHPie/Fu9FmzSMC+waT4WgBXZtE4LTntbOgUMzfS2gqXfR0Vnh13/WtF6FoXgQmEeiSR9ZeUcysbATbkHsrfpGs+ROL/o8S/W2+xs/XC9F2FNzkvbgasAcvY71DMdtW4aEZud5/Ox7cftaY85FKUnS+jUBVMWV00CzucNYKBViXmnA5SI5gGn6O+ho82EaUCsxSyIFQ6VSxoQ5e0o13pYt93tsy3FCPmiz8Px3Vga63StR7ew4snLHYsN26PxdmOzy1D6zaKnoD9IGmiVIozF1HMjZEU+SmRQUiDOd55yvt75Jbmb127kRsDtnZaBxDNn4rSKJqoLwnzvWLV1Jr0ThcPcI=
+          properties :
+           x : 6
+           y : 242
+           width : 788
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_Exist_Property
+          identifier : 0x2e563aed01d2ccb2
+          internal_properties : CAAAAAgAAAD7zwzQmErPYfJU+/z1D33UeKvs6eZ83CSso3YCfVVPWzDdO8kuGPcxwRccWJ26EEx+KF1kVamGkqRrYPZJJ/UPsGbw8QRC5CAfsEAwpwKhkBmBbAOZAtFjpO570ALmt74yCGqsMURZH3TQhu0m4Ri8XxP9xkZzHKNSgPX9GiDjQJzaG1EO/0a5anNpAX7YqoQKnqpbN+S2ONnih0m990kRpjujsVq6Y8gVVLTHHW6hvUdPOmOOMIpYn0HHD1sge4cvZGekYXOGmbK1zvSfEG1HakWmk1OFwZ/tXH/X6Tj9+Z8iTFvKMld18iR8S6fKy3ZIzfKhCiuF7/98yGap4q+DXyPlVqpYSAfNQ+MEW1UM+HTMuJKAioaATGz4q7jUJKONN+5zHP4WR4uxoY1uM51CgM/WlJCPVynxYq+QwUA+hTYI6cyumGV6qIYNyb6o4fVsMPvptUPNhgVB4qUrS/FYQOw//9xzwmMYfClDgbTRhC7HyhtLnAKLM2+ep6Hl4NZmaujvAG4lhqLNKoY1DCwx4T6BcV+O5aQ7JnO/gCijwuZY9TE9XZGSC2JnT0xhUT3l2qW2S5DAJ8Qwe3fe+TdQxcuqfOvTW5gxCBa2rPJo2ix006kRSjkj3GVYCZKLWPiSAOwtn10B9OYD1WiRPFLD9zOtyIImt3goNFaY1kyOpw42UaWB6nwub0nmOe3zRzlNE1jyBxWVNo96nTJm4OEqQ/4OPktV1VhRu7Vv3KlfQRRffu8DcOvYHUI4zrosZWOoY681Z7qZu5JxhMQ/IGkZZSlDJPPY9h28auVXOaa9OK8hqHgBXJJxOBwrwICdzL9GeA1j/V5IK6nI51IlIyxIdon738HK+VPr+Sh7q8F+aPjHc2ra
+          properties :
+           x : 830
+           y : 241
+           width : 152
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAD5O+wnd/0SBtHadziMh1Y/sSvePIaX9wtZ0MvGGEXpOQtmGPjV8nVxUokf5gxym3yhnMjEhroh9bVcH5CtA/9jSoKD9pbLYzUfUfknq31BkfB6Qxq/rlVEj+dMRwz8TL/eev6UM+bg3JIkxZ4=
+              code : |1+
+               
+               MyContact is a JSON, description = "contact"
+               
+               // Fills the structure
+               MyContact.LastName = "JOHNSON"
+               MyContact.FirstName = "Helen"
+               
+               // Show variable before deletion
+               Info(<§$0000§>, MyContact, "", <§$0003§>+MyContact.FirstName..Exist)
+               
+               // Deletes the member
+               MyContact.FirstName..Exist = False
+               
+               // Show variable before deletion
+               Info(<§$0001§>, MyContact, "", <§$0002§>+MyContact.FirstName..Exist)
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAAB09/BKJdtEPM/ys03YscCctABke118Ny43LUfG7Lrkh7EpBp/D2ab8KhEf4Qf4TGPmpWRv+YcvAXINLc2TW64TMXPMDo4Qk5Ed9Ck8qQZCGi3P7e+1DLC1/BVtkxG3snYps3G66YyWE0AvExpslFR+JoNRAu3y01t4de6wARDs0/TugmCEfJB+FsY2NoYBdLRIBOnwNmf+A9D9dQ==
+       controls :
+        -
+          name : STC_Explanations_7
+          identifier : 0x2c0f9dab054d7040
+          internal_properties : CAAAAAgAAADrMK7iW+ir+bpoXv84dhBxu2ACp8txOjhBTB17FxpqyLzlsVV8o+gGu5WnbKyDW3+sdmREqekVNe4mcaKMJfbbGdVTSGEiW9ffN3S07ZMzh2L8fUV/Pt5fEZUgX1fgdMqMQNWRs8WkEgNoZZc1XYfyPUGsi3k3SE/4+6qRKIR/yRB88FYfoZ7QWTeYw2ZUMqVIfxgTiYDnjzzTErZfPY5kQnhaxtLzQDOTTNLjXnYwrvS+mMgURLQULv9vL5lR00/uvbAXGwkJR7keocmGJ8tlRIAEbrZoBOUZrkrhl4dIbABkU4788ySVgdQycNgV7fuj9LjpNxGCtFpZ6UOOtr2qolMlroVWk1Dp5cvYzyUFTWCx6h2y2c2UmgrL42ucXloGcbdcj0RuFFpBKCHjIb9JxwEUmOyp7LRVyTkX4rtG7cqN48EsebuEnX+n8z3mJBE+ZMl6qWjV9phUAc1aesVJE8+rPeUzcmbRQDrGTFvwAFlNO9ytcpHOApPTgkrw8sVRRbFfFsprwjBI6DowjLRVeK2iZCc20wjNcvcdrP/zZxBcr1odIVVaMIYKaXjqUrA2FXm7H0j7AZEx+Xp0IOVVlJFg126/A1CP1CHoQxgHGxbVIi03BxPZ17ogcNCfeXM82M4LeefNGz31DZa2Lnavd0h6MBztcJz+FZCzMZsDleHyj0lUUo0YPAiDVLZoo0Yn2TiLAOc+SOy4dmUYQTLPDJPZhG9MihHTmjjQIqUvmu0JDUMF93q7ugcH3MsZWaZm+blTAQIWJeRz0IVwq20KO7/S5sb/ZUKOyjeRvL6JZrP+fmM3EeKgsvgdDk24AAWP6lw4VZas4JCZLkKgHNWXl7NPbEVoq23Vi0QIw+022gvJrXlDUL5sUomCCxsjTeJyo8qCcqgFEDC+8XLFKWsT5HlXYPvCxdKVJd/mAegMBgki+hAX5Phs6vGEOTguHIF2fgXSIcQNdgeFnQX5P0zrjsSdAn0WtIbtVGWzFWf+3ZZaCwUeTyUftW/bPAg841c75OWb/CgLJ7vntdJ4wLoN/oDO3XCxr2RDxVEcqULZfDgde/3HEb+8rNF3ik/zBMS+FX4IxsSdJRJ0Lx0JzWN45pG0nPCyWSpYnX8uuqKxWBFTbzLfKBpDHRdsfdgVwGZHipLQP92inHtVkRKFIrZrIuOxeOE2SjpqPbaAm2HVe1MQEKII+JoiD1QF72iwZw0nKLJoUgTiYw==
+          properties :
+           x : 6
+           y : 6
+           width : 988
+           height : 70
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_JSON_OBJECT
+          identifier : 0x2c0f9dab054e7040
+          internal_properties : CAAAAAgAAAB0JXtJ6wUTjo6qKZXtt03BZsUhSqj65+j3oZrwp4w+mITLxjJfuBGCrWBcv0Y8pcRjj7iF7FJcQXZMoUEIiT7fE5xZX4DBCT1Ywynm+zIE8H5gQbgpi3zPvuooXmQam184LXAdkYGJ38Ij1OsMdvZ9VXI9M1uugaVTIcGa1CHQ/I4dkB2Ah461kzCS3t1PQZ6iG6r+NsCWQMBaAWmrZJREIs5AllDux6CDTQHDPys2HNG6auwljtzF9+3i+XUlIpvTFSI09ZrgsCsEB3lukqC8uK0P921PydJfR2x1pnn2jjHp42pBrBFUxFzUkFtWZgErH6yqlGOO9ap9GHhOX1ij+e5XzLm3Jqm32lr7614GNUS8Eodm8FBZe4WSzPr5v05c22NS2MPpACdd76MNxgcFH9yPMg+wRziPNe8evjWPFotgeIrl9cA7MNdrBk+ou4V7U1MBhX/rTa7rtXXPlHx1f9j/VwzkaWFlpVXDIoeR3BtVNeg7GNRtgxZRsUPgiFC9urpQI/MklD/5/T1Mcl+NnFNYK+eSOBMuP4HpWWkLCX+Wf9nxBYxz9exNGGoH+7j0z66164iW2OT3+aB2EbRp9hTcZXxrntf9sClhzgVzPp/834NUdV60bOVtfTYH7A4XIjR9bttYNtFyUz4nEwMc99bMa+5ocDOyVeAS4MvLMD49XL4LPXJrOjFuRL5PUFT9fm6pTAt4EIB5nYNib8zXLiPOIxkO/MO6Rztia0u6NXJsRXa08u+zVRxM8aPX//DS0RL4HDv9sIsB5zlNzuaYhwaLE1EGlbOHgzq9VeSV7xbPmmrA/SZw+O9Kwpfs6bEkW2y9yX1kdEd4GV+6yNOMX1vWSuLl730L/PgLawja7k7Rp99pKgvWScuT5ufA
+          properties :
+           x : 839
+           y : 354
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAADbnYIZ+ZN/lt9sj+o8xyj5Gy2cbOhNg5M3anu4+NXPp8HkVmBriNl9eEODhBAede7/irpwEHQe0NJZXLFsRDIQ+W0QZwHg9FT4upYAYraMFpeVZE8Wz+LThOTxyIP1S7BR8dNNjlhqwrQGJ3w=
+              code : |1+
+               // Defines the query
+               // The "JSON_OBJECT" command allows you to retrieve content in JSON format from any item
+               // The retrieved JSON content corresponds to an object ( { xxx,...} )
+               sSQLQuery is string = [
+               SELECT
+               Contact.ContactID,
+               JSON_OBJECT ('FullName' : Contact.LastName+' '+Contact.FirstName, 'Address' : Address+' '+ZipCode+' '+City+' '+Country) AS JSONContent
+               FROM
+               Contact
+               WHERE
+               ContactID <= 3
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               // Browses the results
+               sResult is string
+               for each dsQuery 
+               	sResult += [CR+CR] + "Contact # [%dsQuery.ContactID%] :  " + dsQuery.JSONContent
+               end
+               
+               // Displays the result
+               Info("Result of the query:", sResult)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_JSON_OBJECTAGG
+          identifier : 0x2c0f9dab054f7040
+          internal_properties : CAAAAAgAAAAhG1Bih8sJoGWC6trX/TafxI/FpM/6/XAGlV7OKfQ/m7slkiLzuPt0E1h8COOu4wNq/uxTNfCECwVs2NZ9aESkwqZHNZVdN0WTUfar8wkpwHz7+xqDVMilfoN0fD3rayBsZMUfM0ZvVyOESWARHAq++Gfu52ZO720oqwSDyg1e7llfl9Oj7jOsdy5LGa+83k/fHkkQ42ghsZRqsigppSD72AGEYVpU6tZJsZevbGFM9NW08s/lO9WX+LnGspW8m07Wm6unnLVdE9Mcj92aQ3axcHPCdq+Oh0fmTauTSxJwD1AthzgmEaf/rDlFpKZoW+Gl2FW30KqrqR6wDHlM5mqoROltxU+ot7NFpxA+WjVc9D/o22AMi0VaOCq5HyQh8J1Z+gS03K5OyPiBhC97LUFdshuKwNodgOlK8H2W/p51u/WhhhzfS9aRJzhqb4NJ9Pj5INXIP7dQ9ApKYpWtEldPgFv5tCSGzE7ZHgJDGGEQWKaeyRvrgKnUH8UwlakaT5YwB5oZWYEvBeWkUrOMyFyTX+TOkIE0SdaGlKxjHUNKTzARE1J9tcGy6X0qsETv1AxzzMyg85xnxwh4JuQ424lJKfXynFZPTTj78aA3drlSmq7FAcQSV+/z2NQG/SBd24qMDVhcYDvp9T0xyvgfj9Zmmru0htR2V6yiEnv0BFPazoOohmnZQQGMWqyBNDAt5VyGtWCoSGVPpaAUiJsofYUZncB10sqIZhc0c7rd7s91D/Ryinh8KHLHILpqchI5iPxzIllq5BxDhdHnhGgkvywlPxtuf6DUi4veOOyB8J8Zy5wRDRC0YMb0KSUn5JMSOxWz/KgZNTSITIfN00p3N8sPR03AfwtIXmgKPAbs3zpNVNfateQXMXizPrQUzb0LTyaBLiI=
+          properties :
+           x : 839
+           y : 438
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Defines the query
+               // The "JSON_OBJECTAGG" command makes it possible to retrieve a JSON object containing a "key: value" pair for each specific key and value in a set of SQL values.
+               // In this example, the pair retrieved is "<LastName FirstName>":"<Complete Address>"
+               sSQLQuery is string = [
+               SELECT
+               JSON_OBJECTAGG (Contact.LastName+' '+Contact.FirstName VALUE Address+' '+ZipCode+' '+City+' '+Country) AS JSONContent
+               FROM
+               Contact
+               WHERE
+               ContactID <= 3
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               // Reads the result of the query
+               HReadFirst(dsQuery)
+               // Displays the result
+               Info("Result of the query:", dsQuery.JSONContent)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_JSON_ARRAY
+          identifier : 0x2c0f9dab05507040
+          internal_properties : CAAAAAgAAAC/5Enxd6HO29lhYlyWoWdfqdpdC6eAO3mmftWJamoXQzFOYCmKXyHMWBx1yHJqsfP60zsmub1/Gdhs26zAEnlvJzm9ZHuker3gVpevphOnVlqFrwm0P/7ayFW8AkaSRjtiDuUaK8ZdC5ZxuEiyQ/pUZVjBM95Vxlk3KoV3I1EgVh3bboQKFw+d40b+87CPMdyCYMuXPm40W3AQe9glX18POtHlJ40qJTWyew+Fr/Z44MCEruhb00FdVXdOHiKBw1ls3eSVtz41ZUg46igyJMQp5LG/otOJs6pjVEDJyiHd3ZjuDOWsigGTq83zXUc/MeVHEHmRRABDSgDAmgregb5ErW+OeHpkURpYA/bBTt+fuZqfT0p/ZulsMtMtx0w3HeVMYu9Lp0+jGTm6Id0yXCmsWP3lZ9qT4DV7/RNNBrj4H4hRhc+enZqpmyldsLpMSc71Rqfgy5No4cVMXpF9FKF4fadNoCwYNhWmxGRjpBM6m6ECj+Vxmou9as8yybHceQfxz/jxhY89RDaqTJuIDIw47Ao+GKUuQ71H0nqTaVmw/Lk/ycjfa1+vnNWA+tq3oENqtDQoH5xD7vUGZEKqvVNKKvH47CLBn7dAybi/2vmu+x/bJwag409GDYhwb7ZrMaGno6yKIgv1MkwvwKCT+bDPdyc+DmAs1TnJ1uVonPGwOzDQQmnlL/9RxV4/sFDTg2nf71oKvinnHjsulqmSVVEqliz57DPwUYHB8ERY6+9LBILb2QnQykqn4K0bCSUl0pV+bMhhLBlgOkJ+sFtZzFUJT6Q847C5hC3GiPxcpqPnrakJCYLnNs4zhvoDPikbyZcnrduS9tYOf+UwQrte+tXIMB5OfK1isSgW9WsvTa3PeRlhu2xjQ4dCKa62
+          properties :
+           x : 839
+           y : 396
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAAL7dIp4UMfpv/8H/o8B3g5e80MPChtk5MHKjuYKKXvd3E0luDb+PnNmDMzNNDeJU4fKooAEBT2GOqRNIkETDoYcfWI35nIzLyQUs4YGh40vq+d/Cdut9r7fBxpABv9s1gJeWslhuBi0oRW96w=
+              code : |1+
+               // Defines the query
+               // The "JSON_ARRAY" command allows you to retrieve content in JSON format from any item
+               // The retrieved JSON content corresponds to an array ( [ xxx,...] )
+               sSQLQuery is string = [
+               SELECT
+               Contact.ContactID,
+               JSON_ARRAY (Contact.LastName+' '+Contact.FirstName) AS JSONContent
+               FROM
+               Contact
+               WHERE
+               ContactID <= 3
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               // Browses the results
+               sResult is string
+               for each dsQuery 
+               	sResult += [CR+CR] + "Contact # [%dsQuery.ContactID%] :  " + dsQuery.JSONContent
+               end
+               
+               // Displays the result
+               Info("Result of the query:", sResult)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_9
+          identifier : 0x2c0f9dab05517040
+          internal_properties : CAAAAAgAAAAsy4lK9joQlj5ZafvPwH7A4aa+yfbblJeQXu+0+h7aDnXeenPai2f1RFoxaC5kAGRLDeOfcavIZ0yDtTnhgLfyr+XG4Mn1sj9lvyefCnvQLGP0aa41mMqI5PVjjKrE2WJqDc6DT9jQymdenJRiupaWxtsO+X5oH3F8+YJJqUieqXjuJ+yxF7CSwqmoAU27duDnpZtIMokYZoN/9mKpnWtXIZ84PBbtCQ7u3428da3pMWPOTYf7zNdeb9VGmTMH4dFIe/VeDSAr/f9PNZTQXCh0aBA5mDHwDjpDVqbfMmrur3yzveVavyouYuFaAS5SwIdCYe1AkVUwY9OsMDj+3avUbmhhzCKmwm6gnPyqBnlKWTgIdk/rAi3PSXySS+vd1dVVRfNLJPXDFFbYcdG/8GSbPwiI2Ey6XVui92fI+UdC0uJ0gHKcaf5tUTFVIjKAIevs9mCQPDG3hJVhEDjT6RRawBNL3MbjvF6yLaSJ6jmXFackTPYPhz/9iO75eHBE2vy/LiTpVRv8NVeirrBJwpE/WM+vsSyojCM438fZrZWJf0e6Qc4ivKTPgJ1u49upARaXTh5f6asNa1SGhAyUAy/x0worJZidNn4QfHh9HdA7am10RK54GkMiR8To0YBxs5x/wyjSSCwHloE/gbcw/hBAwkv6IdG8IEsi55YGHSH5fmSlFbKPE28z8J5lO/7OaQFSNDSw2Vqc08DWTt4EOzhYa5r5t1aBZKSWr/X6N9kBZjfmagyLjlVia9vC7Ah3gHGKw7efdSxUYKC0OJeYzfDSXPHqDS0zlHAl2GphIyGMaopKE5+uUR80TO/kbB0so3kT7fnmpmm8abKUYwNc1N4ChUrbg4Ze0lqbsrq4XPw9D+M80UAeOen+XO1eHVjW9nWLgk8mZcQMJg8hAe19B/pvI+7fxlI97A5eSB/Z09suLZ5aID5zvTtONhPX7YfmgrovTHTD7OPHOSpRiZNVAjJdcMbCJXPJuIuQloa510PC4mqwH9Q=
+          properties :
+           x : 6
+           y : 354
+           width : 799
+           height : 17
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Explanations_10
+          identifier : 0x2c0f9dab05527040
+          internal_properties : CAAAAAgAAAB9rtIN+Kms8hjup/aIffS///+j6SIyZsmq5RP6nnIl9DieqHK7CbD4q/ZuUoGGI7KADzPuNCE93pPV0mEHiPoECW/CWZ3tFbwu+z6x6Hm67s+0pzD0bKE1pBjAJU+fbHyt97HMQhygYaVF4zN4XDcdEQWpFBwIhoHrzrjV93IJzXNOBXnoC3tbk7jzF78MgfWXHnZnGVQhIW1Zv0Ct2wdT/cDzCqWdCBx4BMtknvCxACbyu+0ieO/+uQ1FXjer5wve2DAPYdSXX7CAoQqW2JQ9weOZzgAaIqJow5/mzN6wEBEcFfG6bzmoNZx9DXXlxBldjg5D0LuhLBR4UzZ1mIrSH8o8kZ31rVHIQlI1B/ijAnCJPP7ZjldccEa1kOfJgKzUO4GYdpnyTZN7WyrMG4IbIAo7CsC8ssfe5hwXyw9s2Bx8O5j48hqMetMDsxAOJrYsoXUkSEb7Laf4YXQCQ8yAxFjX9077KL6tbFBf8yzxvH2w3Ui4WthwgqQq26q8Xvk/8z/Prs2S+M7CI8mD+h+MAlKggSGodJbTa+Y0p8l/uA1NArofimrml+mN3k/f6fXxDx3PboHRFOmMvxFUBV0Id4ks9wWbEs1vyuFkq/RJ4xOxn1DnGF9xKv51sm4ta0MLuMPGrYQ9gfgzalic9FStUtbzx3hQykYlSeUHAddXZc58+s6wtfcyd2DsQuB68RBcPU80Lprk5P08BysKg3atS++YVdEb+gG/HZZJffENz5Otf0oe2K+jjAMdEWqLqFYaVliRjvY8Ob2UXRpmoYQ5tkQzZWT5Z3Ify/LaC/yUc1jGAPVEX2M1KfbHQeOU+ktwht5KASaEVwgknA3bkYg9LbDNyn31VmeH5mUlyx0bXHEZYJobgyMb2OD+714A5Tld2l+Vn5Tyw3Sp9KKbcRIRdGadpBqaYjkAMRnoZJnIEqS3dsOUkR0MLGif3hOoaiIvPvulwGstSnCewiV7HM7z043bzcdMJzgXtFto3m6I
+          properties :
+           x : 6
+           y : 396
+           width : 799
+           height : 17
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Explanations_11
+          identifier : 0x2c0f9dab05537040
+          internal_properties : CAAAAAgAAABDmh4C614BTdVf4u4hkPxMDqAm89FnOsDP8q2VU989sfmNdxL/LE8nP5R0cHBsGfGtHg1t6VPe6qKHpPFE41n7sQfhHfm3h2DFcQ/dhvll6qJSgIKIR5E00fVdNo4tfjh+JlEKs0jqPWg2A8i+UiLJyyMPLC9w4PwoQC0J4x5cIs3+j9LAqQLmHmbQf0BMGmYBFzO1voK333ievZ5PqlENSdQouiS0cAowXWFyqbVthNExJ2uXj73Ec+Fs8QGoIAIVj4iUzaZ5fhJYyOc3LmQuuGJFKxa3cMP5NDZ91X3N5t2vH+D5X0504e2AWrP1E90Q7af/aJItNu845u3o0gkvB+hkdssiWFTA1+8HF2M7t0cBj/v7DyVwLxNGPqOUhvsCajxxX3uJr6TK11FL/2yqMo8UtmNTFmhICzTdwJV1H4Kapm+/q15UE/X1eOb1+ycqfF5zZMSnW4IE8sZCm+SzevZ2srQ29Dej8f2UAgCS9DGxvZfn978LZVYZCi6h9rZ2uSu7C2NcEGnw2kgk3waeDwwCfqH+in2K0AtFiOBaO57Sny3W+90VztzQE6xWBpaAgPY2XTS22arhBFSXltZDMM7p2iRu5eR+pdxjYhG0REJaOAcm1/qeH9FIZzsgDN4kbXDJbF0Q7l3WjfdzObl0a+uYootN3xv2vEjkHnY2ZkHpl+FbzCCVIiEtgzEFDCn3SgQv/Ul1mWZVIEpJAO0ItGBJlJT451gOvidAHFJ+WBog4idH34rGI2yWnhe+/SXLg038AcPnDECZUm9TzO1AP9sS5tXALXBR26IfJJo02iwgMgQBebz8oIK1VX/0AwYfggQoY+UqIMG/sJwlUQlx8a4zNiWqcpPd3RlyVWqxzDGo3bXKwKWeHY95uc157VvXe/IzIRx/CGG6/dxZRYyR/J146dJkBL+DHOL0W3RywJLw/PF9XXjEswHyiwgCMtqAoczeh9UduQtbHuyjnPVQzJxmiaFHjXsf18P43RZiG9RWlynanwtPfJ6s8+5dYjbZeWDe2mTfDP76ChRVXOjwHDl0VDwpZZ616rdKQQXCpoLfwohbq3V/J4l+55hOtA==
+          properties :
+           x : 6
+           y : 438
+           width : 799
+           height : 34
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_JSON_QUERY
+          identifier : 0x2c0f9dab05547040
+          internal_properties : CAAAAAgAAADlf8zm5eXtLmLxaNqUw+i11+G80aqfpR1kZNPpn5gv4OGJ0itraVyOiH8hgiRgthr3N/wnUG5O8+lVS3545U1SQKIjmQMSF+1nmnShkYM7JgZiGN4ntzsc2dzBE1jRI8rRrOYPNHLt2HKDNWtLCTREtth5HjXHWZnYLeagiuzFmS3979s30tP1RqLe2TToSUTFCeMADOq11O2zFLqXj0PlrcQP8M5Vstdho2mwL4siVDYZnpwgMPMvWPdwvtai5JaKB/nqhE1rshn/MMXwbn+OQ0oKqmWSLwoOZR14rag5WpGsARwY2qK42/rAFx1D34oR79aFluRTrIkbredffqmeP6nUu2XmYEcglthBuAcPmhBMAsJQKLATKL9XETGzGRs77QbTnHuH3xxNPrSamPjJSGgjas8zm5YQEphZPKyAXXRVvzd6lHx7u5pnbiSNejG4St/EhIEXXYiZzm/WbHD9YhXnAEsyrcE7JzZtsVmV9C4SvSmgquxpsYA4iwo2xKB+DXp71rdWijupHucVXF2zY8jCgPLWfi0ey3SnYp8TPZKHXYJMP4wfVyqQ8jUNtZItMm4C5ARq2GKZzpRzMbAJJYGuekMxQA0jwsbxEfEbQqI5aQABFVCCCMVsEU2BSE70RQzgUalEziNwtrKArZfE7LUAiMM0PkUCgfs6l4NFUkOQal2Gb5w5+sVpMFvlEq7Eb5qknae2GpTJBgvL2abZmzvzyTtfdXZ97ruTew4TsPx8oN6gHUh+kENSrH+oho18lSnY8sTC45AKM/anUXFRvbn71pC6NiiqYp/1wHwZ3wmg9t8/7ajGYuUhLtDC//d/hNjoGJ2KfkUa1KnzviEKvIqaQWWrq3UvDHnVMiKItQhiQmZ0bcs5+GjZgg==
+          properties :
+           x : 839
+           y : 262
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Defines the query
+               // The "JSON_QUERY" command allows you to retrieve an object or array in JSON format
+               // Here, the query is used to retrieve the list of available colors for each product
+               sSQLQuery is string = [
+               SELECT
+               Product.Reference,
+               Product.Caption,
+               Product.Characteristics,
+               JSON_QUERY (Product.Characteristics, '$.colors') AS Colors
+               FROM
+               Product
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               
+               sResult is string
+               nLimit is int = 3 // Limits the display to 3 results
+               // Browses the results
+               for each dsQuery 
+               	sResult += [CR+CR] + "> Product: [%dsQuery.Reference%], [%dsQuery.Caption%][%RC%]Colors: [%dsQuery.Colors%][%RC%]JSON: [%dsQuery.Characteristics%]"
+               	
+               	// If the limit is reached, stops browsing
+               	nLimit--
+               	if nLimit <= 0 then break
+               end
+               
+               // Displays the result
+               Info("Products with their colors: [%HNbEnr(dsQuery)%] results", "3 first results : ", sResult)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_14
+          identifier : 0x2c0f9dab05557040
+          internal_properties : CAAAAAgAAABAMH3/PF/P2Fo8+i9XtyjFCdR6Oh8SsCPMnumYjBZ9jFRkk+Np04SMDhxAb5u7v/YgQhnQH1iO+UOftLh2M3jF3IDgz3COVTmCoKb4kWaGFLJqcQs1nWj+XNmOmeq+Tkv0mNY/gTu+8KkfZpYfidr2KnQ0fb7qmM+kW51TPQJtokQz4aqKNBGALEuo3lqCZcdISuWoZfzNh94HmxXU6gCWOQJHx9lKtUInO9RWeFTU63xCRv4O1zm/NmJAc2u+74i7SGialQgBEvupFX5eSfv43v59mHQLJ1i/mbLtIuHOHkyUrOk4ivTkFzKn8nM+Zqc4BvW3EagETViUYaNFKyimGgPBwmHCY0mIEw5hIdWIgAd4/u6GokNvqGvV1LPO+94h6wRdF5mIhMNuGEOdPbaA+EbQECAtQ8wGjkc3nXougY5M6SvW1tBtZ/06IMEF2tyPeE5dBEKcf4ARLQXPYx9DArpLjkErCylXMbk62QRwjwi9jyep5OKVHcy7c6izrjIMGDrcicF0wmB4bUImDHu2eLZgrhSaiIqzd74/pN9T7jc1fuHwnLCmC8uLPVTZjxX90QuEETW/6AHSKcx9mc/anWFQmDwbqAN1AkXlxv5ToQVX0TMMbJcl+lAbGfd75z87utkz+GJts/IXgq07OqxLbCiZ7ulu/hbZYcGuJtGX6W7uUNu/kQU8aSZ2pQ1AlbrKw/F9wZjODLmY/6jZ59JLBVFOtDZH8n/dPZLaLE1La1u1C0shDrdTmMWz3qEVNDra1iwY21SIyXm2CzFPl4wlZlT39gNH05i1tYY7rjTI5cbk2ghdiX1xeagVxnroLF2elMgDBBxk//RsSHST2hwrzwEnMhlqxsypK07I6cpIc2Ls7X3H5zTyzZ3Y4H2Mhm5sRh+s0sZ8TEkyN88DmOy7MeqYzvjD7IZeZC8aIz7HwTjs4QEBq2RsjbZ72UKj0p5McpQ/uvVXK0dheZmFrwf0LJCklp8loi4x8LjM5P0MxRcgaXzLcy3VKCVcwlGCXQdEqBntphxb
+          properties :
+           x : 6
+           y : 265
+           width : 799
+           height : 17
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_JSON_VALUE
+          identifier : 0x2c0f9dab05567040
+          internal_properties : CAAAAAgAAAAwG7zkxkCNoFI5yLPBY8gGTC2k5Kw9/lxxj+ZPYdYHJ702HGXec4GE1FwtoO7WkSfWpPUeu8Syn44GfLeD5ivkvg3hGw8ApL1MCA2uqD2sjYiuyjE6CetxcL3C2wBpCLUJ3mMGTZQeaH105wuTWqTJIqFMTro3QgO/C9lZU3fOItO7Loo4bXvbsYIAIZSxXzCIEO9Z4OC80WrojVYBnUHvJJURsTdkfb8o/xWDq1SKCH6cJjIF1VF3DwcQtMYzGT1G6YBPtTxx8+bsrLaGsloNrvUXDMmXx8QlNJIHbtvLCdoiRFsehAE11YVRN1+pL6EN0DmzNpoj2L6kpKSWO7z4G8dm9rReaXi6M3xb1mllLcRjZ/wR8GHGGA9jlVBpvy2Ksi+tGRkTLytKZ7vuivN0jk15/VRVqIeJKTHXRv4iH4ZRnTVAx7qreUUrGoIbeG8EK+KHUmYVjoaNHdAMlyxlAMh0kzePz6YfQQ9+L5p9eOhLRpDcIRRK71y1VBR7oJh04KdMMF4eMfOra5qP76Nxg6tde0A1PC4M/3W+XEgDARB4qAtSUlgkGVoDfSV+U3ANsRfXZsdYe5aT751d9NL7URaTY/nc1OSVQr/2EaRFvCZsbiGTEmBfalVLSlnCGAommPcxcUYaWwVor5cKROcQOuh1QXOjXr6qn8xHs6QPBG99/cjEAvzK8gd23zfGVs6yZOWJNQzkJ2jDyXytNLBb20b3DAeOPyJ3E/DNGim09uUFcHVvtcNCoeLJvW/G/w6GXq7+wk/q6udw+rjhIAn+OCdZiJUe9xs4cuf2lg+wo44KWLWzjfnqeWjlcAsV1zE1M23EAChMtdeGbFWwvJMK0h5scLmY61h2RcnvvVia5qlIksVEwvg13BEp
+          properties :
+           x : 839
+           y : 220
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               // Defines the query
+               // The "JSON_VALUE" command is used to retrieve the value of an element
+               // Here, the query is used to retrieve the brand of each product
+               sSQLQuery is string = [
+               SELECT
+               Product.Reference,
+               Product.Caption,
+               Product.Characteristics,
+               JSON_VALUE (Product.Characteristics, '$.brand' DEFAULT 'no brand' ON ERROR) AS Brand
+               FROM
+               Product
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               
+               sResult is string
+               nLimit is int = 3 // Limits the display to 3 results
+               // Browses the results
+               for each dsQuery 
+               	sResult += [CR+CR] + "> Product: [%dsQuery.Reference%], [%dsQuery.Caption%][%RC%]Brand: [%dsQuery.Brand%][%RC%]JSON: [%dsQuery.Characteristics%]"
+               	
+               	// If the limit is reached, stops browsing
+               	nLimit--
+               	if nLimit <= 0 then break
+               end
+               
+               // Displays the result
+               Info("Products with their brand: [%HNbEnr(dsQuery)%] results", "3 first results : ", sResult)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_13
+          identifier : 0x2c0f9dab05577040
+          internal_properties : CAAAAAgAAAB3jlZyxZXgoAip3q5C4OjarfhGRtDScno+dF0E58g/jKSk2N9LTMtqmUD7xgh96EUMBI9F6+YxYh8shQOB06BZbOKs9wIR6S1mIK3FS0GB4HmWjmanLEJvXSO9BQMByeIoeG1WQQ/QpN4u6g40FZ7LyT7Vd4lX9LO3lkTf11MTKOYkyAj1yrQH/ECcRYyOCTe9VPdHN4naDp5PT+mj7eWdxn2NRaBux5dF+TpFeYCQ2Mv+y+sx+GEwcDCKZlLspw9AtsB3e7Jr0QPyxKret5o7WWWHij3W8G+oh+4ZwUjTycieNXfR3BiHC+loinMaYDeO43SECXW1MJnWYlMBsiF4bgs2kjKq2KcBinPQBSdkE4XZMg8PTFQlsP4Vb9P+2I1t42X3KSa8PctuQ2GHVYbpr1hURRuF4dQTBCckFZhwlKlVm6bI7X+hXNYzz1tYGL0GKiYuWvk3cGshLuRsHKDBORCONuA8UYn8iIVrn4rRnHJcmSKDIL2O76vvgEb1Co9iMcn7AXBTkgF2hCdnH7ay6ShiWc47Q1jSt538QZ4cXG75CpguGz+gAJ/+psE6DMPu5Ufvs6D6FsaKcn/8TlDATANylwqGG238NqgGI388qZpRC5bosa5HP5I87EZK8K/Sdo1+5GHwiXvjt2SK61HXMYIzOSsjpwj4/87NHWAkezNE3sBlOlbg3FgRpgYHrBYDNTNC1ZfD+IpGTN/EjJXryM8sWx6+rym+remPWcww10y7Me6VxUybt1GgnRD46SiNXpS3gZvRH6YQdERqntnpNWLFRWO2OtCWox1ukbdpn7XM4hmfRDL5Qm5ynRF1UflBBHimOAM5X2uW211lOKcHKAbvmiD+EzPAHG4VkfImdqqzBmpWtJR9345yP7na3vHPpsGRTgGPbjjkp9gJIitTkMSHovHxb42U3dmn83c49s9+jol7hXRENC4CAXJLpZufb2lLV4/wSu2jXRWjm77k7d/LJMkzpdxY7cnnzlK/itFnOid09ZIWw9p6L+LB
+          properties :
+           x : 6
+           y : 220
+           width : 799
+           height : 17
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_JSON_EXISTS
+          identifier : 0x2c0f9dab05587040
+          internal_properties : CAAAAAgAAACEnK+VdynBEgYtLH4IV9wZW01o7Vb9bztKZum6IH45Wnd3QFn5L+a03ln/IHoOKMSNjUKVvtyQOfevKSQGg5es3shJJ7FV41nhAIFrwDFj2/HMJk0XkcWxyHwjltqhyjrxt45PvuI/n4l4rhBa4vdQ6y8s9RjNgSchhdtCHljF4TmhXw9/trMJ4ubyfXiUCTTR7XPcLC5l4IHP0PY742vFqRjfPAZhcrOl31XEsy8K9AoN/iDgfKvT/JM8utquDN5u6wFODPHzJv1LZGmUWvdGZ24SFj2un45K2eGcSdyJgo34QXAA3iLsn7b8mzHvT8pFQ54BFpATyG13mRMruunWe+XkN9WCQJO0Etwl5NM3IlzA+uZYZMC//Bv7Ve0XuTOnmT43TO9vg9iR4oC25ABRZORzhm+v+9L0LoRFCFDAnZDZP+tqmPwHLzaLOqCJ3FduzNn2KmNpL8ZvGNFUbnKLAKeZ6kEE5+uR/VAnbwtvknzc92tGzAYT715KVfjYnob094x1fMngxOEPOMlrxu+J6aIkKijYeMd8SeYh4JEl04gJf9z6Se6B9UBKfNN/N9DLfEgk2k40EtB/2D6Bk9I309MQ5KlL0q+BuDBT/5OFKBhDWxrvH2KENqNOc4tzQkTqnzYSx2sGEHl+mIR2JxkKYo9KGjG+MEeADw0EnY1HGCnaFB/0ufaDMPsD8rm3PBRKUayeW6mIHOpXiPX5C4Avf9ZAk7nvbf8zWbvc0FYYllvGkyoJ3HvBewr2evexeSDeSaXjunjSIf8NsoguojADk0zAB2OvWiymjpfRWFTNU82gbgv/LfSyBpGZYkh6Q3OLXEB0iG1WuoHOBG1TTp2+MCoC7dUDDymTsM1J7haMebxONhJ4YVe0Zwd4Iw==
+          properties :
+           x : 839
+           y : 178
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Defines the query
+               // The "JSON_EXISTS" command allows you to retrieve records in which the JSON item contains data
+               // Here, the query is used to retrieve the products that include the value "heel" in the characteristics (therefore, all high-heeled shoes)
+               sSQLQuery is string = [
+               SELECT
+               Product.Reference,
+               Product.Caption,
+               Product.Characteristics
+               FROM
+               Product
+               WHERE
+               JSON_EXISTS (Product.Characteristics, '$.heel')
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               sResult is string
+               nLimit is int = 3 // Limits the display to 3 results
+               // Browses the results
+               for each dsQuery 
+               	sResult += [CR+CR] + "> Product: [%dsQuery.Reference%], [%dsQuery.Caption%][%RC%]JSON: [%dsQuery.Characteristics%]"
+               	
+               	// If the limit is reached, stops browsing
+               	nLimit--
+               	if nLimit <= 0 then break
+               end
+               
+               // Displays the result
+               Info("Products with ""heel"" among their characteristics: [%HNbEnr(dsQuery)%] results", "3 first results : ", sResult)
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Explanations_12
+          identifier : 0x2c0f9dab05597040
+          internal_properties : CAAAAAgAAAAbxxNtSXYGDc3mD46CFzF6uQ91yguZAh6NrHX16EDbJCL4oHYYo6MhUlSbcUT782Wluxq6/rfkgVn0L3FHgwfg5qJZ6vd2Rap4KPcU3RClq7MsRq60omqZ6DmDDRsRFyBGk7uAPDiRSmRJplS1dnPJJNHeVOn6HXHZt3pxUiszjVwsQFnF0/JD3MjsWuns40luDc+Hg9X+geWfMlhCVhjUHpnENvd+ywVmCtKZRvZ2pFvGClhPfFshMWfeFg07cQJdTT+6kFkdcdCkDhBUJSmgzJrG34WMef+mAyoN/HNidlwhwFMlCb7G3oQsj/XWyPj4/TnCFXEgRkPEKKUNl9iWvH533RvjEzEDWfG6+RCcjXLbI73mFoFHXUCF7NirA1Zd0l8Lo/LbnVHvzU22TAylaaOn+ih99sYnglRI/RoFmm1IngU2Z/d7nGkgvan4mgLM0EzlxW9+HP42XDJyISkfTkIPBuGCx9SgbDXcyJ+P1Rqf8eBphyxhocjKud44ffHFI2K3LP85UZ9+MgKY4oRMBBRlQyGuJZOklx+hcC06DlGrSZLxkuu3PN2yqWaTgHdpSVTzKGc+8+garjrZZTRUhUvZNfF1kcDilq55BGp8SWc3qBZ3GtaMeYqyNb3d6jVTRubqt6wWjJ8lPd2tFNv9+CAiw+ZWVSEwPXp4LovAp964F6hcTSjVmswnHd9AAkj2EcQg3E4ltcp0YgDDodUb68NN5ZfzVW6QvbNiAkX063E3GurYyOqYESlWViuxIXCiesW10C7BbAAspmUd/68z0pjKUV5XPIdIc2UWkSrKBGcQKPTOXLUtgeQX1Xtd2xF4m9KxALKGSIETTKaY79JmHgo67F6rkr2yvV2TaC1//VDQbiFolLHv+TbhK6iCi+Mc6AxhbXYmH5datQnDJSv8Luq8cEUKIQpokChyjVzR4lKt/b7ECo7n8kqCOhe3MQFejxLJSjdh8BuroULkf9YEdrhnPOiTx8CpRtXjtAH2w7cVdM4k/oJB5DL6
+          properties :
+           x : 6
+           y : 178
+           width : 799
+           height : 17
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Explanations_15
+          identifier : 0x2c0f9dab055a7040
+          internal_properties : CAAAAAgAAAD+iXztsCNXIr44uqklt8QUklhCP7yknS0bEmbb+APG9mNB5dFSGFS44oF5e4CnrSCjWxwO+Wa9+jz89l7YOgMsHgmtF/cNF/36p9L6hG+4J677ToGTOzkj7l8CWQ0RmCXvUNf6LE4ip7txO8R2uNdCHTEaZp21Sg5w0VSnt6l5G3msDfJlyq7Jf3sgfdfjZfFh2m2f3h/U2squSOkIlWM5iAYwmUtb8KSKwC5xAhmhzupl+/pYEYE0XBGCfBMbHDamMkjZk0D5g/tpnbY1XGz9VAJvyQ6aAgiOjAfkxWInRR4UB6qGJxUk7AYHdULi2EQWJAd4R5XA2bbMhKoKh6QKcLIuC3OkH4B8CNjxDdx+5qkl6ilRa5A74UaYLlfVyH2Eh482Zoz/TiWnacXBxT2Ebdw4PtjpBgbFyNpJpTIQCHAI7dM56aFT17vjm/PAZkzTrRvrmzV+W3QcRIAwviBwZPGU4r/N/RJY5lyrcQ/kfzf8WUX1a/37zMNgkb3SSl+TMzo3ntMoWLOWbBFkoi1H4PB4gujrgS3JBXIUebhilznBYfHIPqJ5kKc1EVPMq+/1olqns3tpaLqjlMX9EP10v5Z1vcWkBFgLvbgAaWKte5cl2q1sBBRFIuzuor0vjWvt4A+jFKTvJZyMNEb7KT4ajX6QhowmAQGZSLkSCdEfFGyP0+HCyyX0UuvProqWj1X844kq4Bx5lHHjPtVa92dftPrJxG50dJaZlIknT5B4zoJTZ31iwv5jwLkeZHLIrz7vbfCJ6Oo0E4xiMibeV+YgOVp7cuRtneHxi2HPcbfq1VP0139QIXcuif5wMxg9j5nm6UgEXhPhsi4Y0EXTFlAfkRzowekfwo0IaBl7N/kfzRrkt1PreBwmslJvHAIe1G9rMIut9i1KODDJkOfvxwnL+s+A1/BqbRZtMcMhfOd2zSb0HEkTXOknvIirQyKC++qjxZRCzb4Z7uwLXnea9byBdVbJunn/bQbLKGz+lG2R6xnagGigSxJvR37Mhr9NdMERuk7k4rECCKipXCxKUJ6r9wTXlB3sMhB64OuigUfaI9M48odSu1YmmwPNvdjF5PHiwMH2UUmiX0CyxWyombwfstcADqPmDCK+utNQff/7b6gYnRI5/VMLrc4Wa0jwgHAAwdhhi/vM0Gyf60iCWS8hkxaEBjhIscWl21Rt27VfeItP
+          properties :
+           x : 6
+           y : 124
+           width : 799
+           height : 36
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : BTN_IS_JSON1
+          identifier : 0x2c0f9dab055b7040
+          internal_properties : CAAAAAgAAACPzDmy1lpEitaH0AM/2wruTsmsW69PbzyNgoYpuUSN/JU7qmwf6ddG3O/o2gwZePN/f6DLfB5Ye40MsjS+o5OJthTVrvuc0knH6/LRlr/lv3peT5wKrBb94yLY6IXb9mcC89axnvVJbF3WadSdk4cQbs+vLYaTLjXQyuv8s+MI6ND7kleSifmApqbUJoTjtpdLN3bxs8KTGPnEBihL4BGilk/AXo0+FELqU9oKvtskgczQ8rWr065krMY2ElZ5jRSpr0f86wPWslreae4h8PFvLfvwQ+eaQwz5IBD75HUz/S6DxngBvQLvdArGTLvzPm1cPoONjrSADOM4a5iiM8rxqiDOCNobyC9mk4XPkXzmTzCh7YLRkq1Q894mLiA9Z0k+A6m3YlvzDMxQC77fNJVcQd5KXjReGwgU+h0hKpC2/0MOgxudEZ8pHxAAhKlghpG2XpDBVKDyivwno44gAFD4ojAbkaV0WhyS7zowbmm5zVzX2PbTWwwnWYCoqVoVpafKTuXGGZmQHDlHSZmMzMcrBMrZliZmDh3bCg4uasktP0j+Z+CUQz2hdLGIq5J+w9WqH+4VSg/M5GkjVxRUZBEv4WcFa9zdpMYfVMB/EyxrNTg9+cS5Ay6k9kJZbrgxHUx4ZmtyVXo2Fhc1X7wWpOpuDiuThqRSEgBvBImxLnqCOP4vdbfgnhNV4j3RY9fNAvb72g/ozebU/WMKgupn2ETXELYCh8UnmTU56g/KgyocyoatbsWAJkBl/3jRhd9vSceqsK/RFyGX0Uwpu8IOrByTWccWUCGKeqLL8vbnyXN/LQGCx2he3aD6xf4y2ZkFqzVrBlxSVrFIENEhoWq987WhtJo92QErP8yt1FrZ34OgeR7lgnU=
+          properties :
+           x : 839
+           y : 124
+           width : 155
+           height : 24
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAAQ38y6l13eWEOes06SF2x/uwCB/bSlJO5ZI/eDVe/2DxfovDntLfcP7tpbGXVCL9T3gG9/g72FBC8Asj1vMHOLeMOKNxrOg6D12RIwFdAZbY615I1lzTX7l+3/jkx/XjFiiRuvln06wwDpAQ==
+              code : |1-
+               // Defines the query
+               // The "IS JSON xxx" commands allow you to know if an item is:
+               // - a JSON content (IS JSON),
+               // - a JSON content that represents an object (IS JSON OBJECT),
+               // - a JSON content that represents an array (IS JSON ARRAY),
+               // - ...
+               sSQLQuery is string = [
+               	SELECT
+               	Product.Characteristics IS JSON 			AS ItemISJSON,
+               	Product.Characteristics IS JSON OBJECT		AS ItemISJSONOBJECT,
+               	Product.Characteristics IS JSON ARRAY 		AS ItemISJSONARRAY,
+               	Product.Characteristics IS JSON SCALAR		AS ItemISJSONSCALAR,
+               	Product.Characteristics IS JSON VALUE 		AS ItemISJSONVALUE
+               	FROM
+               	Product
+               ]
+               
+               // Runs the query
+               dsQuery is data source
+               if HExecuteSQLQuery(dsQuery, sSQLQuery) = False then
+               	Error("Unable to run the SQL query: ", HErrorInfo())
+               	return
+               end
+               
+               // Reads the result of the query
+               HReadFirst(dsQuery)
+               
+               // Displays the result
+               Info("Result of the query:", [
+               IS JSON : [%dsQuery.ItemISJSON%],
+               IS JSON OBJECT : [%dsQuery.ItemISJSONOBJECT%],
+               IS JSON ARRAY : [%dsQuery.ItemISJSONARRAY%],
+               IS JSON SCALAR : [%dsQuery.ItemISJSONSCALAR%],
+               IS JSON VALUE : [%dsQuery.ItemISJSONVALUE%]
+               ])
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_Title_3
+          identifier : 0x2c0f9dab055c7040
+          internal_properties : CAAAAAgAAADF9T1759m2o8VJ/TS8Xh1VMf0GUrfK+OOvMEy+y9N8iFELzLVtJblPlSlJxlLqzE0zjRaIybEzHhIVcq925ZUvgTwhfKUaUaeMIjCXYYwcE2j7WXFTqekbd/8ZEMl/aRUWdMF5ItzkdNfVTv7Pz1aUtuMhG+dRuZ0vyewO3/GpkRcQh4iUm2n+C+JfJhws7LXE3UhKUTZoBAcdwzof1d0HBKxwZF/aBBn57sWairkWycQwBr6KMTR1gLkj+Ei+TBR0WlhioKguOz8DqyRAm8JdWJVS6+gZW3ailbhXdmK/HyQgm/KaU9wFvo+Ygudrvxkwil8/JQ44oXcTjZ1dwXegJnVC4UKcZRlHus/8VtlWu+dYIaLabJFUuoohieb/45KeCLJzhgj8fZi1tEz2EEDxnc8LmgZMwcXGUtIlnlnbCnp9Xy9ZiIV02obOcicpk+wU6LIXDlOogl3hChxZ6FYkovcGd32P/kESgV+ndOFyuVt5rLQFqz6D0yVeGrv75H6AaqzVZG7jBV3caDzsqnP0tZeg1zCqZzPA4lvvx+eHjvhBFCF0eIHcCQD4eUSrc2y0Uw7fBiOPlDtOS8doD/bGjzJCZiGZ3g==
+          properties :
+           x : 6
+           y : 98
+           width : 986
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : STC_Title_4
+          identifier : 0x2c0f9dab055d7040
+          internal_properties : CAAAAAgAAAB2oGJFlXjSNOb/6cbbYaX8BGZ1QX9VeuQSvcXZVLb3ePK46u7lXTyFp5X9EDNc3odxpziFXcII5laO/nrcJ0n5ynVBhCUKWptnyveHOMR6QEazAxmm/YDzp0FD9U87agIlwDleIPqn+Kc/zKFL1Dd6QLsG3uc5aC957hg9yKkRpvxlkYOWFYDdCYRPJ845qubtOCfY2IosvnhnD+xQ/tQ3GqJcbcYmK7oaN8W4JFRiNlPPK10JusXM1j4VBPLD52+hHqvi6Db5bT+uK/UqTb74Mf49Ckg7Vbp55/1hTYdcfaBbvMFFn+NtN1aLNjVKW19r9wigEk5tjxZYVvVHLO16WeJzUF3KcA1YtSaEiKJ8g6JX1O/TgN4Qh92YwfDi8UZnb8XsswLjAS0yBa7qH7hLnC7OMQFu6OtLlbkp2HQ9aqUKIIyiKBxmielN8L9RzCeCJGJjPkz2GYXDjwrYKs0Volq3AvN+3qB2bdDXKHgpDiyJYMsqdIyDQoNqdqV4G9UoxtjaKmG9L5tODm8GprHsvNZd6YnAfhNC5lMSDhb9PEuksJERlr/NA3oQgS5atvb4HJ98klrUMtw=
+          properties :
+           x : 6
+           y : 328
+           width : 986
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+    type : 16
+    controls : []
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        type : 292
+        enabled : false
+      -
+        type : 293
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADTpYrw+bYV9g8Mv3pkL1DpIz3svCgNw9tP8pOAqLVvb7G8TtizUHGN2EOjNKiG/V63Glrw4BQi9I5tGI1g8J60/QGEi0WsmIhUXjKs1tL4ipv5SGM66wb38Nj91JfBd2TlBfehIiJpG9z+L3Q=
+     code : |1+
+      Procédure MyWindow()
+      
+      // Defines a JSON variable based on a description
+      // This variable is used to test the binding with the fields
+      gMyContact is a JSON, description = "contact"
+   -
+     code : |1-
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1bec4e5400010bd1
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : "Content of the variable before deletion: "
+     index : 0
+   -
+     text :
+      en-GB : "Content of the variable after deletion: "
+     index : 1
+   -
+     text :
+      en-GB : "MyContact.FirstName..Exist = "
+     index : 2
+   -
+     text :
+      en-GB : "MyContact.FirstName..Exist = "
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

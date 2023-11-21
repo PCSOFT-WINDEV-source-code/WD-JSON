@@ -1,0 +1,10 @@
+{
+	"LastName": "JOHNSON",
+	"FirstName": "Helen",
+	"DateOfBirth": "1983-06-12",
+	"PhoneNumber": {
+		"Fixed ": "222-333-4567",
+		"CellPhone ": "222-333-8901"
+	},
+	"Emails ": ["johnson.helen@precilia.com ", "hj@precilia.com "]
+}
